@@ -296,7 +296,7 @@
         style="background-image: url(media/backgrounds/header.png)"
       >
         <div class="container head-box">
-          <h2 class="text-uppercase text-center fs60">Sign In</h2>
+          <h2 class="text-uppercase text-center fs60">Sign Up</h2>
         </div>
       </header>
 
@@ -308,15 +308,23 @@
             <div class="forms container mx-auto px-5 py-5">
               <div class="row">
                 <div class="col-lg-3 col-4">
-                  <a class="text_main1 line text-center fs36"> Login </a>
+                  <a class="text_main text-center fs36"> Login </a>
                 </div>
                 <div class="col-lg-4 col-4 mb-3">
-                  <a class="text_main  text-center fs36"> Registration </a>
+                  <a class="text_main1 line text-center fs36"> Registration </a>
                 </div>
               </div>
 
               <form class="">
-                
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    placeholder="Enter Full Name"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
                 <div class="mb-3">
                   <input
                     type="password"
@@ -330,21 +338,27 @@
                     type="password"
                     class="form-control"
                     id="exampleInputPassword1"
-                    placeholder="Enter password"
+                    placeholder="Enter Phone Number"
                   />
                 </div>
-               
+                <div class="mb-3">
+                  <textarea class="form-control" id="exampleInputPassword1">
+Your Message</textarea
+                  >
+                </div>
                 <div class="align-items-center mb-3 d-flex">
                   <input type="radio" class="checkbox" id="terms" />  
                   <label for="terms">
-                    Remeber Me
-                     </label
+                    I agree with the
+                    <span class="text-clr">Terms and Conditions</span> and
+                    <span class="text-clr"> Privacy Policy</span> </label
                   ><br />
                 </div>
 
                 <div class="align-items-center mb-3 d-flex flex-wrap">
                   <div class="w-50" style="height: 56px">
                     <img  src="media/backgrounds/imbot.png" style="width:80%;">
+
                   </div>
                   <button
                     type="submit"
