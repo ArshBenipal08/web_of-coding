@@ -88,7 +88,45 @@ ul {
     border-radius: 999px;
     color: white;
 }
+.secondary_btn {
+    position: relative;
+    width: 233px;
+    height: 48px;
+    justify-content: center;
+    border: solid 3px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #FFAD88  , #FF7081);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+  border-radius: 999px;
+    color:  #FF7081;;
+}
+.section_dashboard{
+    width: 77%;
+margin: 0 auto;
+}
+.text_color{
+    background: radial-gradient(86.8% 325.5% at 8% 0%, #FFB589 0%, #FF7081 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.cart_part{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 40px 0px;
+gap: 21px;
 
+width: 420px;
+height: 698px;
+
+background: linear-gradient(270deg, rgba(237, 124, 88, 0.4) 0%, rgba(255, 194, 102, 0.4) 98.19%);
+border-radius: 20px;
+
+}
 header {
     position: relative;
     /* width: 1933px; */
