@@ -18,6 +18,9 @@ body {
 .fs16 {
     font-size: 16px;
 }
+.fs48{
+    font-size: 48px;
+}
 
 .fs18 {
     font-size: 18px;
@@ -33,7 +36,9 @@ body {
 .fs32 {
     font-size: 32px;
 }
-
+.fs50{
+    font-size: 50px;
+}
 .fs36 {
     font-size: 36px;
 }
@@ -41,11 +46,20 @@ body {
 .fs60 {
     font-size: 60px;
 }
+.fs29{
+    font-size: 29px;
+}
 
 .bg-white {
     background-color: white;
 }
-
+.grad{
+    background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
 a {
     color: inherit;
     text-decoration: none;
@@ -119,23 +133,35 @@ color: white;
 
 
 .faq{
-    background-color: transparent;
-    border: 1px solid #9fa4a8;
-    border-radius: 10px;
+   
     margin: 20px 0;
     padding: 30px;
     position: relative;
     overflow: hidden;
     transition: 0.3s ease;
+    height: 80px;
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #FFAD88  , #FF7081);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    border-radius: 20px;
+    width: 661px;
+     
+}
+.fa-chevron-down{
+    color:#FF7081;
 }
 
+
 .faq.active {
-    background-color: #fff;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 
-    6px rgba(0, 0, 0, 0.1);
+    background: #FF7081;
+border-radius: 20px;
+color: white;
+height: 184px;
 }
 .faq.active::before{
-    color: #3498db;
+
     top: -10px;
     left: -30px;
     transform: rotateY(180deg);
@@ -201,7 +227,6 @@ height: 56px;
 }
 
 .faq.active .faq-toggle {
-    background-color: #9fa4a8;
 }
 .primary_btn {
     position: relative;
