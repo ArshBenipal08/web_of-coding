@@ -7,8 +7,16 @@ body {
     font-size: 14px;
 }
 
+.fs12 {
+    font-size: 12px;
+}
+
 .fs40 {
     font-size: 40px;
+}
+
+.fs30 {
+    font-size: 30px;
 }
 
 
@@ -410,6 +418,7 @@ header .head-box h2 {
     border: 1px solid #9B9B9B;
     height: 56px;
     border-radius: 20px;
+    color: #3C3C3C !important;
 }
 
 .forms form textarea {
@@ -432,6 +441,10 @@ header .head-box h2 {
     background-color: #F5F5F5;
     border: 1px solid #9B9B9B;
     color: white;
+}
+
+.dash .forms {
+    width: 100%;
 }
 
 .text_main {
@@ -578,6 +591,9 @@ footer h4 {
     }
     .d-nav {
         display: none !important;
+    }
+    .bo {
+        border-left: 0 !important;
     }
     .forms1 {
         width: 100% !important;
@@ -747,6 +763,9 @@ footer h4 {
     .d-nav {
         display: none !important;
     }
+    .bo {
+        border-left: 0 !important;
+    }
     .forms1 {
         width: 100% !important;
     }
@@ -911,6 +930,9 @@ footer h4 {
     .d-nav {
         display: none !important;
     }
+    .bo {
+        border-left: 0 !important;
+    }
     .forms1 {
         width: 100% !important;
     }
@@ -1072,6 +1094,9 @@ footer h4 {
     .d-nav {
         display: none !important;
     }
+    .bo {
+        border-left: 0 !important;
+    }
     .forms1 {
         width: 100% !important;
     }
@@ -1199,6 +1224,10 @@ footer h4 {
 }
 
 @media (max-width: 1024px) and (min-width: 999px) {
+    .dash header .head-box {
+        top: 0px;
+        transform: scale(0.6, 0.6);
+    }
     header .head-box {
         top: -80px;
         transform: scale(0.5, 0.5);
@@ -1237,11 +1266,18 @@ footer h4 {
     .prod .section_dashboard {
         width: 100%;
     }
+    .dash .section_dashboard {
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 1110px) and (min-width: 1030px) {
     header .head-box {
         top: -60px;
+        transform: scale(0.6, 0.6);
+    }
+    .dash header .head-box {
+        top: 0px;
         transform: scale(0.6, 0.6);
     }
     .fsm32 {
@@ -1275,9 +1311,16 @@ footer h4 {
     .prod .section_dashboard {
         width: 100%;
     }
+    .dash .section_dashboard {
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 1280px) and (min-width: 1110px) {
+    .dash header .head-box {
+        top: 0px;
+        transform: scale(0.6, 0.6);
+    }
     header .head-box {
         top: -60px;
         transform: scale(0.7, 0.7);
@@ -1388,6 +1431,10 @@ footer h4 {
         width: 95%;
         margin: 0 auto;
     }
+    .dash header .head-box {
+        top: 0px;
+        /* transform: scale(0.6, 0.6); */
+    }
 }
 
 
@@ -1415,6 +1462,10 @@ footer h4 {
         width: 90%;
         margin: 0 auto;
     }
+    .dash header .head-box {
+        top: 0px;
+        /* transform: scale(0.6, 0.6); */
+    }
 }
 
 
@@ -1441,6 +1492,10 @@ footer h4 {
     .section_dashboard {
         width: 90%;
         margin: 0 auto;
+    }
+    .dash header .head-box {
+        top: 00px !important;
+        /* transform: scale(0.6, 0.6); */
     }
 }
 
