@@ -28,6 +28,27 @@ body {
     width: 42% !important;
 }
 
+input[id="cb1"]+label {
+    display: inline-block;
+    width: 32px;
+    height: 26px;
+    border: 2px solid #FF7081;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[id="cb1"]:checked+label:after {
+    position: relative;
+    top: -1px;
+    left: 5px;
+    content: '\2714';
+    font-size: 14px;
+}
+
+input[id="cb1"] {
+    display: none;
+}
+
 .chck {
     border: 10vmin solid;
     border-radius: 5px;
@@ -569,6 +590,15 @@ footer h4 {
     .fsm32 {
         font-size: 32px !important;
     }
+    .fsm16 {
+        font-size: 16px !important;
+    }
+    .fsm14 {
+        font-size: 14px !important;
+    }
+    .fsm12 {
+        font-size: 12px !important;
+    }
     .prod .b1 {
         width: 100% !important;
     }
@@ -607,6 +637,10 @@ footer h4 {
     }
     .m-nav {
         display: flex !important;
+    }
+    .cart_part {
+        height: auto !important;
+        border-radius: 0 !important;
     }
     .logo_box {
         width: auto !important;
@@ -740,6 +774,15 @@ footer h4 {
     .fsm32 {
         font-size: 32px !important;
     }
+    .fsm16 {
+        font-size: 16px !important;
+    }
+    .fsm14 {
+        font-size: 14px !important;
+    }
+    .fsm12 {
+        font-size: 12px !important;
+    }
     .prod .b1 {
         width: 100% !important;
     }
@@ -778,6 +821,10 @@ footer h4 {
     }
     .m-nav {
         display: flex !important;
+    }
+    .cart_part {
+        height: auto !important;
+        border-radius: 0 !important;
     }
     .logo_box {
         width: auto !important;
@@ -907,6 +954,15 @@ footer h4 {
     .fsm32 {
         font-size: 32px !important;
     }
+    .fsm16 {
+        font-size: 16px !important;
+    }
+    .fsm14 {
+        font-size: 14px !important;
+    }
+    .fsm12 {
+        font-size: 12px !important;
+    }
     .prod .b1 {
         width: 100% !important;
     }
@@ -945,6 +1001,10 @@ footer h4 {
     }
     .m-nav {
         display: flex !important;
+    }
+    .cart_part {
+        height: auto !important;
+        border-radius: 0 !important;
     }
     .logo_box {
         width: auto !important;
@@ -1071,6 +1131,15 @@ footer h4 {
     .fsm32 {
         font-size: 32px !important;
     }
+    .fsm16 {
+        font-size: 16px !important;
+    }
+    .fsm14 {
+        font-size: 14px !important;
+    }
+    .fsm12 {
+        font-size: 12px !important;
+    }
     .prod .b1 {
         width: 100% !important;
     }
@@ -1109,6 +1178,10 @@ footer h4 {
     }
     .m-nav {
         display: flex !important;
+    }
+    .cart_part {
+        height: auto !important;
+        border-radius: 0 !important;
     }
     .logo_box {
         width: auto !important;
@@ -1238,6 +1311,15 @@ footer h4 {
     .fsm32 {
         font-size: 32px !important;
     }
+    .fsm16 {
+        font-size: 16px !important;
+    }
+    .fsm14 {
+        font-size: 14px !important;
+    }
+    .fsm12 {
+        font-size: 12px !important;
+    }
     header {
         height: 135px !important;
     }
@@ -1269,6 +1351,14 @@ footer h4 {
     .dash .section_dashboard {
         width: 100% !important;
     }
+    input[id="cb1"]+label {
+        display: inline-block;
+        width: 50px;
+        height: 26px;
+        border: 2px solid #FF7081;
+        border-radius: 50%;
+        cursor: pointer;
+    }
 }
 
 @media (max-width: 1110px) and (min-width: 1030px) {
@@ -1282,6 +1372,15 @@ footer h4 {
     }
     .fsm32 {
         font-size: 32px !important;
+    }
+    .fsm16 {
+        font-size: 16px !important;
+    }
+    .fsm14 {
+        font-size: 14px !important;
+    }
+    .fsm12 {
+        font-size: 12px !important;
     }
     header {
         height: 143px !important;
@@ -1314,6 +1413,14 @@ footer h4 {
     .dash .section_dashboard {
         width: 100% !important;
     }
+    input[id="cb1"]+label {
+        display: inline-block;
+        width: 46px;
+        height: 26px;
+        border: 2px solid #FF7081;
+        border-radius: 50%;
+        cursor: pointer;
+    }
 }
 
 @media (max-width: 1280px) and (min-width: 1110px) {
@@ -1327,6 +1434,15 @@ footer h4 {
     }
     .fsm32 {
         font-size: 32px !important;
+    }
+    .fsm16 {
+        font-size: 16px !important;
+    }
+    .fsm14 {
+        font-size: 14px !important;
+    }
+    .fsm12 {
+        font-size: 12px !important;
     }
     header {
         height: 156px !important;
@@ -1354,6 +1470,14 @@ footer h4 {
     }
     .prod .b1 {
         width: 100%;
+    }
+    input[id="cb1"]+label {
+        display: inline-block;
+        width: 40px;
+        height: 26px;
+        border: 2px solid #FF7081;
+        border-radius: 50%;
+        cursor: pointer;
     }
 }
 
@@ -1434,6 +1558,14 @@ footer h4 {
     .dash header .head-box {
         top: 0px;
         /* transform: scale(0.6, 0.6); */
+    }
+    input[id="cb1"]+label {
+        display: inline-block;
+        width: 34px;
+        height: 26px;
+        border: 2px solid #FF7081;
+        border-radius: 50%;
+        cursor: pointer;
     }
 }
 
