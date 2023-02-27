@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="Description" content="Enter your description here" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Sora&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
     />
@@ -41,25 +45,12 @@
       >
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid justify-content-between">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="material-symbols-outlined"> menu </span>
-            </button>
-
             <div class="logo_box">
               <a href="/" class="navbar-brand logo">
                 <img src="media/logo/logo.png" alt="web of coding" />
               </a>
             </div>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="" id="navbarNav">
               <div class="d-flex justify-content-between gap-5">
                 <ul class="navbar-nav align-items-center gap-4">
                   <li class="nav-item">
@@ -86,43 +77,42 @@
                     >
                   </li>
                 </ul>
-
-                <ul
-                  class="navbar-nav align-items-center justify-content-center gap-3 mx-4"
-                >
-                  <li class="nav-item">
-                    <a class="nav-link clr fs14" aria-current="page" href="#">
-                      <div class="cart-box">
-                        <svg
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M13.9544 17.5656C14.2196 17.5656 14.474 17.4602 14.6615 17.2727C14.849 17.0851 14.9544 16.8308 14.9544 16.5656V14.5656C14.9544 14.3004 14.849 14.046 14.6615 13.8585C14.474 13.6709 14.2196 13.5656 13.9544 13.5656C13.6892 13.5656 13.4348 13.6709 13.2473 13.8585C13.0597 14.046 12.9544 14.3004 12.9544 14.5656V16.5656C12.9544 16.8308 13.0597 17.0851 13.2473 17.2727C13.4348 17.4602 13.6892 17.5656 13.9544 17.5656ZM9.95438 17.5656C10.2196 17.5656 10.474 17.4602 10.6615 17.2727C10.849 17.0851 10.9544 16.8308 10.9544 16.5656V14.5656C10.9544 14.3004 10.849 14.046 10.6615 13.8585C10.474 13.6709 10.2196 13.5656 9.95438 13.5656C9.68917 13.5656 9.43481 13.6709 9.24728 13.8585C9.05974 14.046 8.95438 14.3004 8.95438 14.5656V16.5656C8.95438 16.8308 9.05974 17.0851 9.24728 17.2727C9.43481 17.4602 9.68917 17.5656 9.95438 17.5656ZM18.9544 5.56558H17.5744L15.8444 2.11558C15.7915 1.98863 15.713 1.87395 15.6139 1.77871C15.5147 1.68346 15.3969 1.6097 15.2679 1.56202C15.1389 1.51435 15.0015 1.49379 14.8642 1.50163C14.7269 1.50947 14.5927 1.54554 14.47 1.60759C14.3473 1.66964 14.2387 1.75633 14.151 1.86225C14.0633 1.96817 13.9984 2.09103 13.9603 2.22317C13.9222 2.35531 13.9118 2.49388 13.9297 2.63023C13.9476 2.76657 13.9935 2.89775 14.0644 3.01558L15.3344 5.56558H8.57438L9.84438 3.01558C9.94145 2.78249 9.94674 2.5213 9.8592 2.28447C9.77167 2.04763 9.59777 1.85268 9.37244 1.73874C9.14711 1.62481 8.88703 1.60034 8.6444 1.67024C8.40177 1.74014 8.19456 1.89923 8.06438 2.11558L6.33438 5.56558H4.95438C4.24757 5.57633 3.56726 5.83633 3.03343 6.29971C2.4996 6.7631 2.14656 7.4001 2.03655 8.09839C1.92655 8.79667 2.06666 9.51136 2.43217 10.1164C2.79768 10.7215 3.36511 11.178 4.03438 11.4056L4.77438 18.8656C4.849 19.6081 5.19773 20.2962 5.75245 20.7955C6.30718 21.2948 7.02808 21.5693 7.77438 21.5656H16.1544C16.9007 21.5693 17.6216 21.2948 18.1763 20.7955C18.731 20.2962 19.0798 19.6081 19.1544 18.8656L19.8944 11.4056C20.5651 11.1774 21.1334 10.7191 21.4987 10.1121C21.8639 9.50498 22.0025 8.78821 21.89 8.08872C21.7774 7.38923 21.4208 6.75217 20.8835 6.29035C20.3463 5.82854 19.6628 5.57179 18.9544 5.56558ZM17.1444 18.6656C17.1195 18.9131 17.0033 19.1425 16.8184 19.3089C16.6334 19.4753 16.3932 19.5668 16.1444 19.5656H7.76438C7.51562 19.5668 7.27532 19.4753 7.09041 19.3089C6.9055 19.1425 6.78926 18.9131 6.76438 18.6656L6.05438 11.5656H17.8544L17.1444 18.6656ZM18.9544 9.56558H4.95438C4.68917 9.56558 4.43481 9.46022 4.24728 9.27269C4.05974 9.08515 3.95438 8.8308 3.95438 8.56558C3.95438 8.30036 4.05974 8.04601 4.24728 7.85847C4.43481 7.67094 4.68917 7.56558 4.95438 7.56558H18.9544C19.2196 7.56558 19.474 7.67094 19.6615 7.85847C19.849 8.04601 19.9544 8.30036 19.9544 8.56558C19.9544 8.8308 19.849 9.08515 19.6615 9.27269C19.474 9.46022 19.2196 9.56558 18.9544 9.56558Z"
-                            fill="#3C3C3C"
-                          />
-                        </svg>
-
-                        <span class="cart-count">3</span>
-                      </div>
-                    </a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">
-                      <button
-                        class="primary_btn btn p-0 primary_btn_bgclr text-center primary_btn_txtclr"
-                      >
-                        Register/Login
-                      </button>
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
+            <ul
+              class="navbar-nav align-items-center justify-content-center gap-3 mx-4"
+            >
+              <li class="nav-item">
+                <a class="nav-link clr fs14" aria-current="page" href="#">
+                  <div class="cart-box">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.9544 17.5656C14.2196 17.5656 14.474 17.4602 14.6615 17.2727C14.849 17.0851 14.9544 16.8308 14.9544 16.5656V14.5656C14.9544 14.3004 14.849 14.046 14.6615 13.8585C14.474 13.6709 14.2196 13.5656 13.9544 13.5656C13.6892 13.5656 13.4348 13.6709 13.2473 13.8585C13.0597 14.046 12.9544 14.3004 12.9544 14.5656V16.5656C12.9544 16.8308 13.0597 17.0851 13.2473 17.2727C13.4348 17.4602 13.6892 17.5656 13.9544 17.5656ZM9.95438 17.5656C10.2196 17.5656 10.474 17.4602 10.6615 17.2727C10.849 17.0851 10.9544 16.8308 10.9544 16.5656V14.5656C10.9544 14.3004 10.849 14.046 10.6615 13.8585C10.474 13.6709 10.2196 13.5656 9.95438 13.5656C9.68917 13.5656 9.43481 13.6709 9.24728 13.8585C9.05974 14.046 8.95438 14.3004 8.95438 14.5656V16.5656C8.95438 16.8308 9.05974 17.0851 9.24728 17.2727C9.43481 17.4602 9.68917 17.5656 9.95438 17.5656ZM18.9544 5.56558H17.5744L15.8444 2.11558C15.7915 1.98863 15.713 1.87395 15.6139 1.77871C15.5147 1.68346 15.3969 1.6097 15.2679 1.56202C15.1389 1.51435 15.0015 1.49379 14.8642 1.50163C14.7269 1.50947 14.5927 1.54554 14.47 1.60759C14.3473 1.66964 14.2387 1.75633 14.151 1.86225C14.0633 1.96817 13.9984 2.09103 13.9603 2.22317C13.9222 2.35531 13.9118 2.49388 13.9297 2.63023C13.9476 2.76657 13.9935 2.89775 14.0644 3.01558L15.3344 5.56558H8.57438L9.84438 3.01558C9.94145 2.78249 9.94674 2.5213 9.8592 2.28447C9.77167 2.04763 9.59777 1.85268 9.37244 1.73874C9.14711 1.62481 8.88703 1.60034 8.6444 1.67024C8.40177 1.74014 8.19456 1.89923 8.06438 2.11558L6.33438 5.56558H4.95438C4.24757 5.57633 3.56726 5.83633 3.03343 6.29971C2.4996 6.7631 2.14656 7.4001 2.03655 8.09839C1.92655 8.79667 2.06666 9.51136 2.43217 10.1164C2.79768 10.7215 3.36511 11.178 4.03438 11.4056L4.77438 18.8656C4.849 19.6081 5.19773 20.2962 5.75245 20.7955C6.30718 21.2948 7.02808 21.5693 7.77438 21.5656H16.1544C16.9007 21.5693 17.6216 21.2948 18.1763 20.7955C18.731 20.2962 19.0798 19.6081 19.1544 18.8656L19.8944 11.4056C20.5651 11.1774 21.1334 10.7191 21.4987 10.1121C21.8639 9.50498 22.0025 8.78821 21.89 8.08872C21.7774 7.38923 21.4208 6.75217 20.8835 6.29035C20.3463 5.82854 19.6628 5.57179 18.9544 5.56558ZM17.1444 18.6656C17.1195 18.9131 17.0033 19.1425 16.8184 19.3089C16.6334 19.4753 16.3932 19.5668 16.1444 19.5656H7.76438C7.51562 19.5668 7.27532 19.4753 7.09041 19.3089C6.9055 19.1425 6.78926 18.9131 6.76438 18.6656L6.05438 11.5656H17.8544L17.1444 18.6656ZM18.9544 9.56558H4.95438C4.68917 9.56558 4.43481 9.46022 4.24728 9.27269C4.05974 9.08515 3.95438 8.8308 3.95438 8.56558C3.95438 8.30036 4.05974 8.04601 4.24728 7.85847C4.43481 7.67094 4.68917 7.56558 4.95438 7.56558H18.9544C19.2196 7.56558 19.474 7.67094 19.6615 7.85847C19.849 8.04601 19.9544 8.30036 19.9544 8.56558C19.9544 8.8308 19.849 9.08515 19.6615 9.27269C19.474 9.46022 19.2196 9.56558 18.9544 9.56558Z"
+                        fill="#3C3C3C"
+                      />
+                    </svg>
+
+                    <span class="cart-count">3</span>
+                  </div>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <button
+                    class="primary_btn btn p-0 primary_btn_bgclr text-center primary_btn_txtclr"
+                  >
+                    Register/Login
+                  </button>
+                </a>
+              </li>
+            </ul>
           </div>
         </nav>
       </div>
@@ -144,7 +134,7 @@
             >
               <div class="logo_box">
                 <a href="/" class="navbar-brand logo">
-                  <img src="media/logo/logo.png" alt="goldrussh" />
+                  <img src="media/logo/logo.png" alt="webofcoding" />
                 </a>
               </div>
               <button
@@ -300,200 +290,179 @@
         </div>
       </header>
 
-      <section class="content px-4 ">
+      <section class="content px-4">
         <div class="bg-white section_dashboard">
           <div class="row">
-          
-          <div class="b1 col-lg-6 col-sm-12 bg-white d-flex justify-content-end "
-          >
-            <div class=" container mx-auto ">
-              <div class="d-flex p-3">
-                <div class="p-2 col-3">
-                  <span class="fw-bold fs-16">Order</span>
-                  
+            <div
+              class="b1 col-lg-6 col-sm-12 bg-white d-flex justify-content-end"
+            >
+              <div class="container mx-auto">
+                <div class="d-flex p-3">
+                  <div class="p-2 col-3">
+                    <span class="fw-bold fs-16">Order</span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fw-bold fs-16">Type</span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fw-bold fs-16">Date</span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fw-bold fs-16"> Quantity</span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fw-bold fs-16">Total</span>
+                  </div>
                 </div>
-                <div class="p-2 col-3 ">
-                  <span class="fw-bold fs-16">Type</span>
+                <div class="d-flex p-3">
+                  <div class="p-2 col-3">
+                    <span class="text_color fs-14"
+                      >Vivamus sagittis lacus...</span
+                    >
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">E-Book </span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">5/12/2020</span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">02</span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">£125.00</span>
+                  </div>
                 </div>
-                <div class="p-2 col-3 ">
-                  <span class="fw-bold fs-16">Date</span>
+                <img src="media/backgrounds/line2.png" />
+                <div class="d-flex p-3">
+                  <div class="p-2 col-3">
+                    <span class="text_color fs-14"
+                      >Vivamus sagittis lacus...</span
+                    >
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">E-Book </span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">5/12/2020</span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">02</span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">£125.00</span>
+                  </div>
                 </div>
-                <div class="p-2 col-3 ">
-                  <span class="fw-bold fs-16"> Quantity</span>
+                <img src="media/backgrounds/line2.png" />
+                <div class="d-flex p-3">
+                  <div class="p-2 col-3">
+                    <span class="text_color fs-14"
+                      >Vivamus sagittis lacus...</span
+                    >
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">E-Book </span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">5/12/2020</span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">02</span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">£125.00</span>
+                  </div>
                 </div>
-                <div class="p-2 col-3 ">
-                  <span class="fw-bold fs-16">Total</span>
+                <img src="media/backgrounds/line2.png" />
+                <div class="d-flex p-3">
+                  <div class="p-2 col-3">
+                    <span class="text_color fs-14"
+                      >Vivamus sagittis lacus...</span
+                    >
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">E-Book </span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">5/12/2020</span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">02</span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">£125.00</span>
+                  </div>
                 </div>
-                
-                
-                
+                <img src="media/backgrounds/line2.png" />
+                <div class="d-flex p-3">
+                  <div class="p-2 col-3">
+                    <span class="text_color fs-14"
+                      >Vivamus sagittis lacus...</span
+                    >
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">E-Book </span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">5/12/2020</span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">02</span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">£125.00</span>
+                  </div>
+                </div>
+                <img src="media/backgrounds/line2.png" />
+                <div class="d-flex p-3">
+                  <div class="p-3 col-3">
+                    <span class="text_color fs-14"
+                      >Vivamus sagittis lacus...</span
+                    >
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">E-Book </span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">5/12/2020</span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">02</span>
+                  </div>
+                  <div class="p-2 col-3">
+                    <span class="fs-14">£125.00</span>
+                  </div>
+                </div>
               </div>
-              <div class="d-flex p-3">
-                <div class="p-2 col-3">
-                  <span class="text_color fs-14">Vivamus sagittis lacus...</span>
-                  
+            </div>
+            <div
+              class="b1 col-lg-6 col-sm-12 bg-white d-flex justify-content-end"
+            >
+              <div class="cart_part mx-auto">
+                <div class="row">
+                  <div class="col-lg-6 col-3">Subtotal</div>
+                  <div class="col-lg-6 col-3">£379.00</div>
                 </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">E-Book </span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">5/12/2020</span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">02</span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">£125.00</span>
-                </div>
-               
-                
-                
+                <svg
+                  width="421"
+                  height="1"
+                  viewBox="0 0 421 1"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line
+                    opacity="0.5"
+                    x1="0.25"
+                    y1="0.5"
+                    x2="420.25"
+                    y2="0.500026"
+                    stroke="#FF7081"
+                  />
+                </svg>
               </div>
-              <img src="media/backgrounds/line2.png">
-              <div class="d-flex p-3">
-                <div class="p-2 col-3">
-                  <span class="text_color fs-14">Vivamus sagittis lacus...</span>
-                  
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">E-Book </span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">5/12/2020</span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">02</span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">£125.00</span>
-                </div>
-                
-                
-                
-                
-              </div>
-              <img src="media/backgrounds/line2.png">
-              <div class="d-flex p-3">
-                <div class="p-2 col-3">
-                  <span class="text_color fs-14">Vivamus sagittis lacus...</span>
-                  
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">E-Book </span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">5/12/2020</span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">02</span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">£125.00</span>
-                </div>
-                
-                
-                
-                
-              </div>
-              <img src="media/backgrounds/line2.png">
-              <div class="d-flex p-3">
-                <div class="p-2 col-3">
-                  <span class="text_color fs-14">Vivamus sagittis lacus...</span>
-                  
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">E-Book </span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">5/12/2020</span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">02</span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">£125.00</span>
-                </div>
-               
-                
-                
-                
-              </div>
-              <img src="media/backgrounds/line2.png">
-              <div class="d-flex p-3">
-                <div class="p-2 col-3">
-                  <span class="text_color fs-14">Vivamus sagittis lacus...</span>
-                  
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">E-Book </span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">5/12/2020</span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">02</span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">£125.00</span>
-                </div>
-                
-                
-                
-                
-              </div>
-              <img src="media/backgrounds/line2.png">
-              <div class="d-flex p-3">
-                <div class="p-3 col-3">
-                  <span class="text_color fs-14">Vivamus sagittis lacus...</span>
-                  
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">E-Book </span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">5/12/2020</span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">02</span>
-                </div>
-                <div class="p-2 col-3 ">
-                  <span class=" fs-14">£125.00</span>
-                </div>
-                
-                
-                
-                
-              </div>
-              
-              
-
-             
-
-              
             </div>
           </div>
-          <div class="b1 col-lg-6 col-sm-12 bg-white d-flex justify-content-end "
-          >
-            <div class="cart_part mx-auto ">
-              <div class="row">
-               <div class="col-lg-6 col-3">
-Subtotal
-               </div>
-               <div class="col-lg-6 col-3">
-                £379.00
-            </div>
-          </div>
-          <svg width="421" height="1" viewBox="0 0 421 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line opacity="0.5" x1="0.25" y1="0.5" x2="420.25" y2="0.500026" stroke="#FF7081"/>
-            </svg>
-            
-            </div>
-          </div>
-         
         </div>
-          
-        </div>
-       
       </section>
 
       <footer class="container-fluid">
@@ -505,11 +474,9 @@ Subtotal
               <a href="/">
                 <img src="media/logo/logo.png" alt="" />
               </a>
-              <div class="visacard w-50" style="">
-                <img src="media/logo/Card.png" class="mt-3" alt="" />
-              </div>
+
               <div class="data11 fs18" style="width: 65%">
-                <p>Copyright ©2020 WEBOFCODING. All Rights Reserved</p>
+                <p>©Copyright ©2020 DEVSTUFFNOW. All Rights Reserved</p>
               </div>
 
               <div class="data11 fs20 d-flex align-items-center gap-2" style="">
@@ -520,6 +487,9 @@ Subtotal
               <div class="data11 fs20 d-flex align-items-center gap-2" style="">
                 <span class="material-symbols-outlined"> phone </span>
                 <a href="tel:1234567890">1234567890</a>
+              </div>
+              <div class="visacard w-50" style="">
+                <img src="media/logo/Card.png" class="mt-3" alt="" />
               </div>
             </div>
           </div>
