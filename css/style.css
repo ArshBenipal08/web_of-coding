@@ -40,7 +40,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: -90px;
 }
 
 .shop input[class="cb1"]+label {
@@ -61,6 +62,31 @@ input[class="cb1"]:checked+label:after {
     font-size: 14px;
 }
 
+.home header {
+    margin-top: -120px !important;
+}
+
+.pagination a {
+    color: #ED7C58;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s all;
+}
+
+.pagination a:hover,
+.pagination a.active {
+    background: radial-gradient(86.8% 325.5% at 8% 0%, #FFB589 0%, #FF7081 100%);
+    color: white;
+}
+
+.pagination .np {
+    border: 2px solid #ED7C58;
+}
+
 input[class="cb1"] {
     display: none;
 }
@@ -72,6 +98,10 @@ input[id="cb1"]+label {
     border: 2px solid #FF7081;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.shop header {
+    margin-top: 150px !important;
 }
 
 input[id="cb1"]:checked+label:after {
@@ -659,6 +689,9 @@ footer h4 {
     .ooo .contact_section {
         height: auto !important;
     }
+    .owl-nav {
+        margin-left: 0px !important;
+    }
     .shop .shop_section1 {
         background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
         display: flex;
@@ -676,6 +709,12 @@ footer h4 {
     }
     .fsm32 {
         font-size: 32px !important;
+    }
+    .fsm20 {
+        font-size: 20px !important;
+    }
+    .home .fsm20 {
+        font-size: 20px !important;
     }
     .fsm24 {
         font-size: 24px !important;
@@ -736,6 +775,19 @@ footer h4 {
         width: 100% !important;
         background-color: white !important;
     }
+    .sss {
+        width: 100% !important;
+    }
+    .logo img {
+        width: 78px !important;
+        height: 33px !important;
+    }
+    .home .cnn {
+        background: linear-gradient(343.48deg, #ED7C58 -3.51%, #FFC266 92.11%) !important;
+    }
+    .imgs {
+        width: 221px !important;
+    }
     .home .hero {
         text-align: center;
     }
@@ -750,6 +802,14 @@ footer h4 {
         margin-top: 40px !important;
         height: auto !important;
     }
+    .shop header.login {
+        background: linear-gradient(343.48deg, #ED7C58 -3.51%, #FFC266 92.11%) !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        margin-top: 40px !important;
+        height: 365px !important;
+    }
     .home header {
         background-image: linear-gradient(343.48deg, #ED7C58 -3.51%, #FFC266 92.11%) !important;
         background-size: cover !important;
@@ -760,9 +820,9 @@ footer h4 {
     .home .hero .fs24 {
         font-size: 16px !important;
     }
-    .home .fs24 {
+    /* .home .fs24 {
         font-size: 24px !important;
-    }
+    } */
     .home .hero .fs18 {
         font-size: 11px !important;
     }
@@ -917,6 +977,9 @@ footer h4 {
     .ooo .contact_section {
         height: auto !important;
     }
+    .owl-nav {
+        margin-left: 0px !important;
+    }
     .shop .shop_section1 {
         background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
         display: flex;
@@ -934,6 +997,12 @@ footer h4 {
     }
     .fsm32 {
         font-size: 32px !important;
+    }
+    .fsm20 {
+        font-size: 20px !important;
+    }
+    .home .fsm20 {
+        font-size: 20px !important;
     }
     .fsm24 {
         font-size: 24px !important;
@@ -994,6 +1063,19 @@ footer h4 {
         width: 100% !important;
         background-color: white !important;
     }
+    .sss {
+        width: 100% !important;
+    }
+    .logo img {
+        width: 78px !important;
+        height: 33px !important;
+    }
+    .home .cnn {
+        background: linear-gradient(343.48deg, #ED7C58 -3.51%, #FFC266 92.11%) !important;
+    }
+    .imgs {
+        width: 221px !important;
+    }
     .home .hero {
         text-align: center;
     }
@@ -1008,6 +1090,14 @@ footer h4 {
         margin-top: 40px !important;
         height: auto !important;
     }
+    .shop header.login {
+        background: linear-gradient(343.48deg, #ED7C58 -3.51%, #FFC266 92.11%) !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        margin-top: 40px !important;
+        height: 365px !important;
+    }
     .home header {
         background-image: linear-gradient(343.48deg, #ED7C58 -3.51%, #FFC266 92.11%) !important;
         background-size: cover !important;
@@ -1018,9 +1108,9 @@ footer h4 {
     .home .hero .fs24 {
         font-size: 16px !important;
     }
-    .home .fs24 {
+    /* .home .fs24 {
         font-size: 24px !important;
-    }
+    } */
     .home .hero .fs18 {
         font-size: 11px !important;
     }
@@ -1171,6 +1261,9 @@ footer h4 {
     .ooo .contact_section {
         height: auto !important;
     }
+    .owl-nav {
+        margin-left: 0px !important;
+    }
     .shop .shop_section1 {
         background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
         display: flex;
@@ -1188,6 +1281,12 @@ footer h4 {
     }
     .fsm32 {
         font-size: 32px !important;
+    }
+    .fsm20 {
+        font-size: 20px !important;
+    }
+    .home .fsm20 {
+        font-size: 20px !important;
     }
     .fsm24 {
         font-size: 24px !important;
@@ -1248,6 +1347,19 @@ footer h4 {
         width: 100% !important;
         background-color: white !important;
     }
+    .sss {
+        width: 100% !important;
+    }
+    .logo img {
+        width: 78px !important;
+        height: 33px !important;
+    }
+    .home .cnn {
+        background: linear-gradient(343.48deg, #ED7C58 -3.51%, #FFC266 92.11%) !important;
+    }
+    .imgs {
+        width: 221px !important;
+    }
     .home .hero {
         text-align: center;
     }
@@ -1262,6 +1374,14 @@ footer h4 {
         margin-top: 40px !important;
         height: auto !important;
     }
+    .shop header.login {
+        background: linear-gradient(343.48deg, #ED7C58 -3.51%, #FFC266 92.11%) !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        margin-top: 40px !important;
+        height: 365px !important;
+    }
     .home header {
         background-image: linear-gradient(343.48deg, #ED7C58 -3.51%, #FFC266 92.11%) !important;
         background-size: cover !important;
@@ -1272,9 +1392,9 @@ footer h4 {
     .home .hero .fs24 {
         font-size: 16px !important;
     }
-    .home .fs24 {
+    /* .home .fs24 {
         font-size: 24px !important;
-    }
+    } */
     .home .hero .fs18 {
         font-size: 11px !important;
     }
@@ -1422,6 +1542,9 @@ footer h4 {
     .ooo .contact_section {
         height: auto !important;
     }
+    .owl-nav {
+        margin-left: 0px !important;
+    }
     .shop .shop_section1 {
         background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
         display: flex;
@@ -1439,6 +1562,12 @@ footer h4 {
     }
     .fsm32 {
         font-size: 32px !important;
+    }
+    .fsm20 {
+        font-size: 20px !important;
+    }
+    .home .fsm20 {
+        font-size: 20px !important;
     }
     .fsm24 {
         font-size: 24px !important;
@@ -1499,6 +1628,19 @@ footer h4 {
         width: 100% !important;
         background-color: white !important;
     }
+    .sss {
+        width: 100% !important;
+    }
+    .logo img {
+        width: 78px !important;
+        height: 33px !important;
+    }
+    .home .cnn {
+        background: linear-gradient(343.48deg, #ED7C58 -3.51%, #FFC266 92.11%) !important;
+    }
+    .imgs {
+        width: 221px !important;
+    }
     .home .hero {
         text-align: center;
     }
@@ -1513,6 +1655,14 @@ footer h4 {
         margin-top: 40px !important;
         height: auto !important;
     }
+    .shop header.login {
+        background: linear-gradient(343.48deg, #ED7C58 -3.51%, #FFC266 92.11%) !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        margin-top: 40px !important;
+        height: 365px !important;
+    }
     .home header {
         background-image: linear-gradient(343.48deg, #ED7C58 -3.51%, #FFC266 92.11%) !important;
         background-size: cover !important;
@@ -1523,9 +1673,9 @@ footer h4 {
     .home .hero .fs24 {
         font-size: 16px !important;
     }
-    .home .fs24 {
+    /* .home .fs24 {
         font-size: 24px !important;
-    }
+    } */
     .home .hero .fs18 {
         font-size: 11px !important;
     }
@@ -1679,6 +1829,12 @@ footer h4 {
     .fsm32 {
         font-size: 32px !important;
     }
+    .fsm20 {
+        font-size: 20px !important;
+    }
+    .home .fsm20 {
+        font-size: 20px !important;
+    }
     .fsm24 {
         font-size: 24px !important;
     }
@@ -1744,20 +1900,26 @@ footer h4 {
     .home .hero .fs24 {
         font-size: 16px !important;
     }
-    .home .fs24 {
+    /* .home .fs24 {
         font-size: 24px !important;
-    }
+    } */
     .home .fs20 {
         font-size: 11px !important;
     }
     .home .fs18 {
         font-size: 11px !important;
     }
+    .shop .fs18 {
+        font-size: 18px !important;
+    }
     .home .fs48 {
         font-size: 27px !important;
     }
     .home .fs40 {
         font-size: 16px;
+    }
+    .shop header {
+        margin-top: 150px !important;
     }
 }
 
@@ -1768,14 +1930,17 @@ footer h4 {
     .home .hero .fs24 {
         font-size: 16px !important;
     }
-    .home .fs24 {
+    /* .home .fs24 {
         font-size: 24px !important;
-    }
+    } */
     .home .fs20 {
         font-size: 11px !important;
     }
     .home .fs18 {
         font-size: 11px !important;
+    }
+    .shop .fs18 {
+        font-size: 18px !important;
     }
     .home .fs48 {
         font-size: 27px !important;
@@ -1793,6 +1958,12 @@ footer h4 {
     }
     .fsm32 {
         font-size: 32px !important;
+    }
+    .fsm20 {
+        font-size: 20px !important;
+    }
+    .home .fsm20 {
+        font-size: 20px !important;
     }
     .fsm24 {
         font-size: 24px !important;
@@ -1853,6 +2024,9 @@ footer h4 {
         top: 0 !important;
         max-width: 1150px !important;
     }
+    .shop header {
+        margin-top: 150px !important;
+    }
 }
 
 @media (max-width: 1280px) and (min-width: 1110px) {
@@ -1862,14 +2036,17 @@ footer h4 {
     .home .hero .fs24 {
         font-size: 16px !important;
     }
-    .home .fs24 {
+    /* .home .fs24 {
         font-size: 24px !important;
-    }
+    } */
     .home .fs20 {
         font-size: 11px !important;
     }
     .home .fs18 {
         font-size: 11px !important;
+    }
+    .shop .fs18 {
+        font-size: 18px !important;
     }
     .home .fs48 {
         font-size: 27px !important;
@@ -1887,6 +2064,12 @@ footer h4 {
     }
     .fsm32 {
         font-size: 32px !important;
+    }
+    .fsm20 {
+        font-size: 20px !important;
+    }
+    .home .fsm20 {
+        font-size: 20px !important;
     }
     .fsm24 {
         font-size: 24px !important;
@@ -1943,6 +2126,9 @@ footer h4 {
         top: 0 !important;
         max-width: 1150px !important;
     }
+    .shop header {
+        margin-top: 150px !important;
+    }
 }
 
 
@@ -1955,14 +2141,17 @@ footer h4 {
     .home .hero .fs24 {
         font-size: 16px !important;
     }
-    .home .fs24 {
+    /* .home .fs24 {
         font-size: 24px !important;
-    }
+    } */
     .home .fs20 {
         font-size: 11px !important;
     }
     .home .fs18 {
         font-size: 11px !important;
+    }
+    .shop .fs18 {
+        font-size: 18px !important;
     }
     .home .fs48 {
         font-size: 27px !important;
@@ -1982,6 +2171,9 @@ footer h4 {
     }
     .ooo .contact_section {
         height: auto !important;
+    }
+    .owl-nav {
+        margin-left: 0px !important;
     }
     .shop .shop_section1 {
         background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
@@ -2032,6 +2224,9 @@ footer h4 {
         top: 0 !important;
         max-width: 1150px !important;
     }
+    .shop header {
+        margin-top: 150px !important;
+    }
 }
 
 
@@ -2044,14 +2239,17 @@ footer h4 {
     .home .hero .fs24 {
         font-size: 16px !important;
     }
-    .home .fs24 {
+    /* .home .fs24 {
         font-size: 24px !important;
-    }
+    } */
     .home .fs20 {
         font-size: 11px !important;
     }
     .home .fs18 {
         font-size: 11px !important;
+    }
+    .shop .fs18 {
+        font-size: 18px !important;
     }
     .home .fs48 {
         font-size: 27px !important;
@@ -2103,6 +2301,9 @@ footer h4 {
     .home .head-box {
         max-width: 1150px !important;
     }
+    .shop header {
+        margin-top: 150px !important;
+    }
 }
 
 
@@ -2147,6 +2348,9 @@ footer h4 {
     .home .head-box {
         max-width: 1050px !important;
     }
+    .shop header {
+        margin-top: 150px !important;
+    }
 }
 
 
@@ -2183,6 +2387,9 @@ footer h4 {
     }
     .home .head-box {
         max-width: 1200px !important;
+    }
+    .shop header {
+        margin-top: 150px !important;
     }
 }
 
