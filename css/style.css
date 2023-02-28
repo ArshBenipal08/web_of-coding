@@ -43,6 +43,28 @@ body {
     margin-top: 50px;
 }
 
+.shop input[class="cb1"]+label {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border: 2px solid #FF7081;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[class="cb1"]:checked+label:after {
+    position: relative;
+    top: -1px;
+    left: 5px;
+    content: '\2714';
+    color: #FF7081;
+    font-size: 14px;
+}
+
+input[class="cb1"] {
+    display: none;
+}
+
 input[id="cb1"]+label {
     display: inline-block;
     width: 32px;
@@ -57,6 +79,7 @@ input[id="cb1"]:checked+label:after {
     top: -1px;
     left: 5px;
     content: '\2714';
+    color: #FF7081;
     font-size: 14px;
 }
 
@@ -157,6 +180,10 @@ input[id="cb1"] {
     border-left: 1px solid #9B9B9B;
     width: 0.5px;
     height: 80%;
+}
+
+.t2_clr {
+    color: #9B9B9B;
 }
 
 a {
@@ -362,19 +389,28 @@ ul {
     color: white;
 }
 
+.sec_text_clr {
+    color: #656565 !important;
+}
+
 .secondary_btn {
     position: relative;
     width: 233px;
     height: 48px;
     justify-content: center;
     border: solid 3px transparent;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #FFAD88, #FF7081);
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #FFAD88, #FF7081);
     background-origin: border-box;
     background-clip: content-box, border-box;
     box-shadow: 2px 1000px 1px #fff inset;
     border-radius: 999px;
     color: #FF7081;
-    ;
+}
+
+.secondary_btn2 {
+    background: transparent !important;
+    border: 3px solid #FF7081;
+    box-shadow: 2px 1000px 1px transparent inset;
 }
 
 .section_dashboard {
@@ -546,6 +582,7 @@ footer {
 }
 
 footer .data1 {
+    padding-top: 20px;
     height: 517px;
     display: flex;
     justify-content: center;
@@ -622,8 +659,26 @@ footer h4 {
     .ooo .contact_section {
         height: auto !important;
     }
+    .shop .shop_section1 {
+        background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+    .shop .shop_section1 p,
+    .shop .shop_section1 select {
+        width: 90%;
+    }
     .fsm32 {
         font-size: 32px !important;
+    }
+    .fsm24 {
+        font-size: 24px !important;
     }
     .fsm16 {
         font-size: 16px !important;
@@ -677,6 +732,10 @@ footer h4 {
         left: 0 !important;
         top: 0 !important;
     }
+    .ss {
+        width: 100% !important;
+        background-color: white !important;
+    }
     .home .hero {
         text-align: center;
     }
@@ -688,6 +747,7 @@ footer h4 {
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-position: center !important;
+        margin-top: 40px !important;
         height: auto !important;
     }
     .home header {
@@ -697,8 +757,11 @@ footer h4 {
         background-position: center !important;
         height: 900px !important;
     }
+    .home .hero .fs24 {
+        font-size: 16px !important;
+    }
     .home .fs24 {
-        font-size: 18px !important;
+        font-size: 24px !important;
     }
     .home .hero .fs18 {
         font-size: 11px !important;
@@ -824,12 +887,15 @@ footer h4 {
     footer .comdetails {
         order: 0;
     }
-    footer .footer-logo {
+    footer .foot er-logo {
         order: 3;
         width: 36%;
     }
     footer .footer-logo img {
         width: 50% !important;
+    }
+    footer .footer-logo .visacard img {
+        width: 100% !important;
     }
     footer .Support {
         order: 1;
@@ -851,8 +917,26 @@ footer h4 {
     .ooo .contact_section {
         height: auto !important;
     }
+    .shop .shop_section1 {
+        background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+    .shop .shop_section1 p,
+    .shop .shop_section1 select {
+        width: 90%;
+    }
     .fsm32 {
         font-size: 32px !important;
+    }
+    .fsm24 {
+        font-size: 24px !important;
     }
     .fsm16 {
         font-size: 16px !important;
@@ -906,6 +990,10 @@ footer h4 {
         left: 0 !important;
         top: 0 !important;
     }
+    .ss {
+        width: 100% !important;
+        background-color: white !important;
+    }
     .home .hero {
         text-align: center;
     }
@@ -917,6 +1005,7 @@ footer h4 {
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-position: center !important;
+        margin-top: 40px !important;
         height: auto !important;
     }
     .home header {
@@ -926,8 +1015,11 @@ footer h4 {
         background-position: center !important;
         height: 900px !important;
     }
+    .home .hero .fs24 {
+        font-size: 16px !important;
+    }
     .home .fs24 {
-        font-size: 18px !important;
+        font-size: 24px !important;
     }
     .home .hero .fs18 {
         font-size: 11px !important;
@@ -1064,6 +1156,9 @@ footer h4 {
     footer .footer-logo img {
         width: 50% !important;
     }
+    footer .footer-logo .visacard img {
+        width: 100% !important;
+    }
     footer .Support {
         order: 1;
     }
@@ -1076,8 +1171,26 @@ footer h4 {
     .ooo .contact_section {
         height: auto !important;
     }
+    .shop .shop_section1 {
+        background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+    .shop .shop_section1 p,
+    .shop .shop_section1 select {
+        width: 90%;
+    }
     .fsm32 {
         font-size: 32px !important;
+    }
+    .fsm24 {
+        font-size: 24px !important;
     }
     .fsm16 {
         font-size: 16px !important;
@@ -1131,6 +1244,10 @@ footer h4 {
         left: 0 !important;
         top: 0 !important;
     }
+    .ss {
+        width: 100% !important;
+        background-color: white !important;
+    }
     .home .hero {
         text-align: center;
     }
@@ -1142,6 +1259,7 @@ footer h4 {
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-position: center !important;
+        margin-top: 40px !important;
         height: auto !important;
     }
     .home header {
@@ -1151,8 +1269,11 @@ footer h4 {
         background-position: center !important;
         height: 900px !important;
     }
+    .home .hero .fs24 {
+        font-size: 16px !important;
+    }
     .home .fs24 {
-        font-size: 18px !important;
+        font-size: 24px !important;
     }
     .home .hero .fs18 {
         font-size: 11px !important;
@@ -1286,6 +1407,9 @@ footer h4 {
     footer .footer-logo img {
         width: 50% !important;
     }
+    footer .footer-logo .visacard img {
+        width: 100% !important;
+    }
     footer .Support {
         order: 1;
     }
@@ -1298,8 +1422,26 @@ footer h4 {
     .ooo .contact_section {
         height: auto !important;
     }
+    .shop .shop_section1 {
+        background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+    .shop .shop_section1 p,
+    .shop .shop_section1 select {
+        width: 90%;
+    }
     .fsm32 {
         font-size: 32px !important;
+    }
+    .fsm24 {
+        font-size: 24px !important;
     }
     .fsm16 {
         font-size: 16px !important;
@@ -1353,6 +1495,10 @@ footer h4 {
         left: 0 !important;
         top: 0 !important;
     }
+    .ss {
+        width: 100% !important;
+        background-color: white !important;
+    }
     .home .hero {
         text-align: center;
     }
@@ -1364,6 +1510,7 @@ footer h4 {
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-position: center !important;
+        margin-top: 40px !important;
         height: auto !important;
     }
     .home header {
@@ -1373,8 +1520,11 @@ footer h4 {
         background-position: center !important;
         height: 900px !important;
     }
+    .home .hero .fs24 {
+        font-size: 16px !important;
+    }
     .home .fs24 {
-        font-size: 18px !important;
+        font-size: 24px !important;
     }
     .home .hero .fs18 {
         font-size: 11px !important;
@@ -1506,6 +1656,9 @@ footer h4 {
     footer .footer-logo img {
         width: 50% !important;
     }
+    footer .footer-logo .visacard img {
+        width: 100% !important;
+    }
     footer .Support {
         order: 1;
     }
@@ -1525,6 +1678,9 @@ footer h4 {
     }
     .fsm32 {
         font-size: 32px !important;
+    }
+    .fsm24 {
+        font-size: 24px !important;
     }
     .fsm16 {
         font-size: 16px !important;
@@ -1585,8 +1741,11 @@ footer h4 {
     .home .fs72 {
         font-size: 29px !important;
     }
+    .home .hero .fs24 {
+        font-size: 16px !important;
+    }
     .home .fs24 {
-        font-size: 18px !important;
+        font-size: 24px !important;
     }
     .home .fs20 {
         font-size: 11px !important;
@@ -1606,8 +1765,11 @@ footer h4 {
     .home .fs72 {
         font-size: 29px !important;
     }
+    .home .hero .fs24 {
+        font-size: 16px !important;
+    }
     .home .fs24 {
-        font-size: 18px !important;
+        font-size: 24px !important;
     }
     .home .fs20 {
         font-size: 11px !important;
@@ -1631,6 +1793,9 @@ footer h4 {
     }
     .fsm32 {
         font-size: 32px !important;
+    }
+    .fsm24 {
+        font-size: 24px !important;
     }
     .fsm16 {
         font-size: 16px !important;
@@ -1694,8 +1859,11 @@ footer h4 {
     .home .fs72 {
         font-size: 29px !important;
     }
+    .home .hero .fs24 {
+        font-size: 16px !important;
+    }
     .home .fs24 {
-        font-size: 18px !important;
+        font-size: 24px !important;
     }
     .home .fs20 {
         font-size: 11px !important;
@@ -1719,6 +1887,9 @@ footer h4 {
     }
     .fsm32 {
         font-size: 32px !important;
+    }
+    .fsm24 {
+        font-size: 24px !important;
     }
     .fsm16 {
         font-size: 16px !important;
@@ -1781,8 +1952,11 @@ footer h4 {
     .home .fs72 {
         font-size: 29px !important;
     }
+    .home .hero .fs24 {
+        font-size: 16px !important;
+    }
     .home .fs24 {
-        font-size: 18px !important;
+        font-size: 24px !important;
     }
     .home .fs20 {
         font-size: 11px !important;
@@ -1808,6 +1982,21 @@ footer h4 {
     }
     .ooo .contact_section {
         height: auto !important;
+    }
+    .shop .shop_section1 {
+        background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+    .shop .shop_section1 p,
+    .shop .shop_section1 select {
+        width: 90%;
     }
     .prod .b1 {
         width: 100% !important;
@@ -1852,8 +2041,11 @@ footer h4 {
     .home .fs72 {
         font-size: 29px !important;
     }
+    .home .hero .fs24 {
+        font-size: 16px !important;
+    }
     .home .fs24 {
-        font-size: 18px !important;
+        font-size: 24px !important;
     }
     .home .fs20 {
         font-size: 11px !important;

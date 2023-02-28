@@ -19,7 +19,7 @@
 </head>
 
 <body>
-  <div class="page-wrapper container-fluid p-0">
+  <div class="page-wrapper container-fluid p-0 dash home shop">
     <div class="d-nav container-fluid m-0 d-flex justify-content-center position-fixed w-100" style="
           background-color: #f4f4f44f;
 
@@ -178,120 +178,198 @@
     <header class="login container-fluid px-5 py-5 text-center"
       style="background-image: url(media/backgrounds/header.png)">
       <div class="container head-box">
-        <h2 class="text-uppercase text-center fs60">Learn Javascript</h2>
+        <h2 class="text-capitalize text-center fs60">Our Shop</h2>
+        <p class="text-white fs18 text-center mx-auto col-lg-7 col-11">
+          Interactively optimize client-centric methodologies vis-a-vis synergistic technology. Rapidiously enable
+          resource sucking vortals rather.
+        </p>
       </div>
     </header>
 
-    <section class="content px-4">
-      <div class="bg-white section_dashboard">
-        <div class="shop_section1 mb-3 gap-3">
+    <section class="content px-lg-4 h-auto mt-4 mt-lg-0">
+      <div class="bg-white section_dashboard ">
+        <div class="shop_section1 mb-3 gap-3 position-relative mt-0  mx-auto w-100 h-auto py-5">
           <p class="fs24 text-white fw-bold">Sort By</p>
-          <select class="slct">
+          <select class="slct px-4">
             <option>Type</option>
             <option>A</option>
             <option>B</option>
           </select>
-          <select class="slct">
+          <select class="slct px-4">
             <option>Theme</option>
             <option>A</option>
             <option>B</option>
           </select>
-          <select class="slct">
+          <select class="slct px-4">
             <option>Price</option>
             <option>A</option>
             <option>B</option>
           </select>
         </div>
 
-        <div class="b1 bg-white d-flex justify-content-end">
-          <div class="container mx-auto">
-            <div class="row">
-              <div class="col-lg-6">
-                <img src="media/backgrounds/product_img.png" />
+
+        <div class="container-fluid" style="width: 100%;">
+          <div class="row mt-5 py-5 justify-content-between align-items-center mb-5 gap-4 gap-lg-0">
+            <div
+              class="col-lg-8 col-12 d-flex justify-content-center gap-lg-0 gap-5 flex-lg-nowrap flex-wrap align-items-center">
+              <h5 class="fw-bold fs24  me-lg-5 col-lg-2 col-12 text-center">Filter By</h5>
+              <div class="align-items-center  d-flex gap-lg-2 gap-2 col-lg-2 col-12">
+                <input type="checkbox" id="cb1" class="cb1">
+                <label for="cb1"></label>
+                <label for="cb1" class="fs16">E-Book</label>
               </div>
-              <div class="col-lg-6">
-                <div class="mb-3">
-                  <p class="fs18 gray">
-                    Software
-                    <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <circle cx="2.5" cy="2.5" r="2.5" fill="#007800" />
-                    </svg> Theme
-                  </p>
-                </div>
-                <div class="mb-3">
-                  <h2 class="fs40 w-50 fw-bold">
-                    The Complete JavaScript Course
-                  </h2>
-                </div>
-                <div class="mb-3">
-                  <h2 class="fs32 fw-bold" style="color: #48b774">$340.00</h2>
-                </div>
-                <div class="mb-3 d-flex">
-                  <div class="col-lg-3">
-                    <p class="fs16 fw-bold gray">Quantity</p>
-                  </div>
-                  <div class="col-lg-3">
-                    <input type="number" style="float: right" class="pill" />
-                  </div>
-                </div>
-                <button type="submit" style="width: 50%"
-                  class="mb-3 secondary_btn btn p-0 primary_btn_bgclr text-center fw-bold primary_btn_txtclr">
-                  Add to cart
-                </button>
-                <button type="submit" style="width: 50%"
-                  class="primary_btn btn p-0 primary_btn_bgclr text-center fw-bold primary_btn_txtclr">
-                  Buy Now
-                </button>
+              <div class="align-items-center  d-flex gap-lg-2 gap-2 col-lg-2 col-12">
+                <input type="checkbox" id="cb2" class="cb1">
+                <label for="cb2"></label>
+                <label for="cb2" class="fs16">Audio Book</label>
+              </div>
+              <div class="align-items-center  d-flex gap-lg-2 gap-2 col-lg-2 col-12">
+                <input type="checkbox" id="cb3" class="cb1">
+                <label for="cb3"></label>
+                <label for="cb3" class="fs16">Video</label>
+              </div>
+              <div class="align-items-center  d-flex gap-lg-2 gap-2 col-lg-2 col-12">
+                <input type="checkbox" id="cb4" class="cb1">
+                <label for="cb4"></label>
+                <label for="cb4" class="fs16">Software</label>
+              </div>
+              <div class="align-items-center  d-flex gap-lg-2 gap-2 col-lg-2 col-12">
+                <input type="checkbox" id="cb5" class="cb1">
+                <label for="cb5"></label>
+                <label for="cb5" class="fs16">Template</label>
               </div>
             </div>
+            <div class="col-lg-4 col-12 ps-lg-5  d-flex justify-content-around flex-lg-nowrap flex-wrap gap-lg-0 gap-4">
+              <div class="col-lg-5 col-12">
+                <button class="w-100 primary_btn bg-transparent btn p-0  fs20 fw-bold text-center primary_btn_txtclr">
+                  Clear all
+                </button>
+              </div>
+              <div class="col-lg-5 col-12">
+
+                <button class="w-100  primary_btn bg-transparent btn p-0  fs20 fw-bold text-center primary_btn_txtclr">
+                  Apply filter
+                </button>
+              </div>
+
+
+            </div>
+
           </div>
-        </div>
-        <div class="b1 bg-white d-flex justify-content-end">
-          <div class="container mx-auto mb-3">
-            <h2 class="fw-bold mb-3 mt-3" style="font-size: 29px">
-              Create Engaging Polls And To Survey Your Visitors Which Will Allow You To Clearly Understand What Their
-              Opinion Of Your Site Is!
-            </h2>
 
-            <p class="fs18 gray mb-3">
-              More often than not, most marketers spend TONS of time on optimizing their website, adding new products
-              and services, adding new content, driving traffic... and probably a myriad of other tasks.
-            </p>
-
-            <p class="fs18 gray mb-3">
-              But what really surprises me is that very few of them are actually taking some time for something really
-              important: discovering WHAT their visitors really want. It seems so simple (and it really is) yet why is
-              that marketers usually never take time for
-              something so critical?
-            </p>
-
-            <p class="fs18 gray mb-3">
-              Well, today you are about to experience how you can finally increase your profits, conversions, and YOUR
-              business in a way you would never imagine. And the interesting thing is that it won't take you much effort
-              to accomplish this.
-            </p>
-            <div class="d-flex justify-content-center mb-3">
-              <button type="submit" style="width: 30%"
-                class="justify-content-center primary_btn btn p-0 primary_btn_bgclr text-center fw-bold primary_btn_txtclr">
-                Go Back
-              </button>
+          <div class="row justify-content-between ">
+            <div class="mb-5 col-lg-6 d-flex  flex-wrap justify-content-between">
+              <div class="col-lg-7 col-12">
+                <img src="media/backgrounds/Image.png" class="w-100 h-100" alt="">
+              </div>
+              <div
+                class="col-lg-5 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
+                <div class="fs24 col-lg-11 col-8">Fox Nymphs Grab Quick-jived</div>
+                <div class="fs24 col-lg-6 col-4 pt-lg-0 pt-4">$ 249.00</div>
+                <div class="col-lg-7 col-6 mt-lg-0 mt-4"><button
+                    class="w-100 primary_btn bg-transparent btn p-0  fs20 fw-bold text-center primary_btn_txtclr">
+                    Buy Now
+                  </button></div>
+              </div>
             </div>
+            <div class="mb-5 col-lg-6 d-flex  flex-wrap justify-content-between">
+              <div class="col-lg-7 col-12">
+                <img src="media/backgrounds/Image.png" class="w-100 h-100" alt="">
+              </div>
+              <div
+                class="col-lg-5 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
+                <div class="fs24 col-lg-11 col-8">Fox Nymphs Grab Quick-jived</div>
+                <div class="fs24 col-lg-6 col-4 pt-lg-0 pt-4">$ 249.00</div>
+                <div class="col-lg-7 col-6 mt-lg-0 mt-4"><button
+                    class="w-100 primary_btn bg-transparent btn p-0  fs20 fw-bold text-center primary_btn_txtclr">
+                    Buy Now
+                  </button></div>
+              </div>
+            </div>
+
+            <div class="mb-5 col-lg-6 d-flex  flex-wrap justify-content-between">
+              <div class="col-lg-7 col-12">
+                <img src="media/backgrounds/Image.png" class="w-100 h-100" alt="">
+              </div>
+              <div
+                class="col-lg-5 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
+                <div class="fs24 col-lg-11 col-8">Fox Nymphs Grab Quick-jived</div>
+                <div class="fs24 col-lg-6 col-4 pt-lg-0 pt-4">$ 249.00</div>
+                <div class="col-lg-7 col-6 mt-lg-0 mt-4"><button
+                    class="w-100 primary_btn bg-transparent btn p-0  fs20 fw-bold text-center primary_btn_txtclr">
+                    Buy Now
+                  </button></div>
+              </div>
+            </div>
+
+
+            <div class="mb-5 col-lg-6 d-flex  flex-wrap justify-content-between">
+              <div class="col-lg-7 col-12">
+                <img src="media/backgrounds/Image.png" class="w-100 h-100" alt="">
+              </div>
+              <div
+                class="col-lg-5 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
+                <div class="fs24 col-lg-11 col-8">Fox Nymphs Grab Quick-jived</div>
+                <div class="fs24 col-lg-6 col-4 pt-lg-0 pt-4">$ 249.00</div>
+                <div class="col-lg-7 col-6 mt-lg-0 mt-4"><button
+                    class="w-100 primary_btn bg-transparent btn p-0  fs20 fw-bold text-center primary_btn_txtclr">
+                    Buy Now
+                  </button></div>
+              </div>
+            </div>
+
+
+            <div class="mb-5 col-lg-6 d-flex  flex-wrap justify-content-between">
+              <div class="col-lg-7 col-12">
+                <img src="media/backgrounds/Image.png" class="w-100 h-100" alt="">
+              </div>
+              <div
+                class="col-lg-5 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
+                <div class="fs24 col-lg-11 col-8">Fox Nymphs Grab Quick-jived</div>
+                <div class="fs24 col-lg-6 col-4 pt-lg-0 pt-4">$ 249.00</div>
+                <div class="col-lg-7 col-6 mt-lg-0 mt-4"><button
+                    class="w-100 primary_btn bg-transparent btn p-0  fs20 fw-bold text-center primary_btn_txtclr">
+                    Buy Now
+                  </button></div>
+              </div>
+            </div>
+
+
+            <div class="mb-5 col-lg-6 d-flex  flex-wrap justify-content-between">
+              <div class="col-lg-7 col-12">
+                <img src="media/backgrounds/Image.png" class="w-100 h-100" alt="">
+              </div>
+              <div
+                class="col-lg-5 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
+                <div class="fs24 col-lg-11 col-8">Fox Nymphs Grab Quick-jived</div>
+                <div class="fs24 col-lg-6 col-4 pt-lg-0 pt-4">$ 249.00</div>
+                <div class="col-lg-7 col-6 mt-lg-0 mt-4"><button
+                    class="w-100 primary_btn bg-transparent btn p-0  fs20 fw-bold text-center primary_btn_txtclr">
+                    Buy Now
+                  </button></div>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </div>
+
     </section>
-    <section class="contact_section px-4">
+    <section class="contact_section px-lg-4">
       <div class="row">
         <div class="b2 col-lg-6 col-sm-12">
           <img src="media/backgrounds/contact_section.png" />
         </div>
 
-        <div class="b2 col-lg-6 col-sm-12" style="background-color: white">
-          <div class="mx-auto px-5 py-5">
-            <h2 class="fs48">Ready to Collaborate with Us ?</h2>
-            <button type="submit" style="width: 20%"
-              class="primary_btn btn p-0 primary_btn_bgclr text-center fw-bold primary_btn_txtclr">
-              Submit
+        <div class="b2 col-lg-6 col-sm-12 justify-content-center d-flex flex-column" style="background-color: white">
+          <div class="mx-auto px-lg-5 w-100 py-5 px-3">
+            <h2 class="fs48 fw-bold">
+              Ready to <br class="d-lg-block d-none" />Collaborate with Us ?
+            </h2>
+            <button type="submit"
+              class="subb primary_btn btn p-0 primary_btn_bgclr text-center fw-bold primary_btn_txtclr">
+              Get a quote
               <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M0.856362 5.59269H7.47671L4.58438 8.48502C4.35323 8.71617 4.35323 9.09549 4.58438 9.32664C4.81553 9.55779 5.18893 9.55779 5.42008 9.32664L9.3259 5.42081C9.55705 5.18966 9.55705 4.81627 9.3259 4.58512L5.426 0.673362C5.19485 0.442213 4.82146 0.442213 4.59031 0.673362C4.35916 0.904511 4.35916 1.27791 4.59031 1.50906L7.47671 4.40731H0.856362C0.530382 4.40731 0.263672 4.67402 0.263672 5C0.263672 5.32598 0.530382 5.59269 0.856362 5.59269Z"
@@ -299,27 +377,27 @@
               </svg>
             </button>
             <div class="row mt-3 mb-3">
-              <div class="col-lg-6">
-                <span class="fs20" style="color: #808697">Want to get a service?</span>
+              <div class="col-lg-6 col-12">
+                <div class="col-lg-6 mb-3">
+                  <span class="fs20" style="color: #808697">Want to get a service?</span>
+                </div>
+                <div class="col-lg-6">
+                  <span class="fs20">Get in touch below</span>
+                </div>
+                <div class="col-lg-6">
+                  <span class="fs24 fw-bold">Services@webofcoding.com</span>
+                </div>
               </div>
-              <div class="col-lg-6">
-                <span class="fs20" style="color: #808697">Want to say hello?</span>
-              </div>
-            </div>
-            <div class="row mt-3 mb-3">
-              <div class="col-lg-6">
-                <span class="fs20">Get in touch below</span>
-              </div>
-              <div class="col-lg-6">
-                <span class="fs20">General Inquiries</span>
-              </div>
-            </div>
-            <div class="row mt-3 mb-3">
-              <div class="col-lg-6">
-                <span class="fs24">Services@webofcoding.com</span>
-              </div>
-              <div class="col-lg-6">
-                <span class="fs24">Info@webofcoding.com</span>
+              <div class="col-lg-6 col-12">
+                <div class="col-lg-6 mb-3">
+                  <span class="fs20" style="color: #808697">Want to say hello?</span>
+                </div>
+                <div class="col-lg-6">
+                  <span class="fs20">General Inquiries</span>
+                </div>
+                <div class="col-lg-6">
+                  <span class="fs24 fw-bold">Info@webofcoding.com</span>
+                </div>
               </div>
             </div>
           </div>

@@ -188,10 +188,10 @@
           <div class="forms container mx-auto px-5 py-5">
             <div class="row">
               <div class="col-lg-3 col-4">
-                <a class="text_main1 line text-center fs36"> Login </a>
+                <a class="text_main1 line text-center fs36 fsm24"> Login </a>
               </div>
               <div class="col-lg-4 col-4 mb-3">
-                <a class="text_main text-center fs36"> Registration </a>
+                <a class="text_main text-center fs36 fsm24"> Registration </a>
               </div>
             </div>
 
@@ -204,19 +204,22 @@
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter password" />
               </div>
 
-              <div class="align-items-center mb-3 d-flex">
-                <input type="radio" class="checkbox" id="terms" />
-                <label for="terms"> Remeber Me </label><br />
+              <div class="align-items-center mb-3 d-flex gap-3">
+                <input type="checkbox" class="checkbox cb1" id="cb1" />
+                <label for="cb1" style="width: 26px; border-color: black;"></label>
+                <label for="cb1"> Remeber Me </label><br />
               </div>
 
-              <div class="align-items-center mb-3 d-flex flex-wrap">
-                <div class="w-50" style="height: 56px">
+              <div class="align-items-center gap-5 gap-lg-0 mb-3 d-flex flex-wrap">
+                <div class="col-lg-6 col-12" style="height: 56px">
                   <img src="media/backgrounds/imbot.png" style="width: 80%" />
                 </div>
-                <button type="submit"
-                  class="w-50 primary_btn btn p-0 primary_btn_bgclr text-center fw-bold primary_btn_txtclr">
-                  Submit Form
-                </button>
+                <div class="col-lg-6 col-12">
+                  <button type="submit"
+                    class="w-100 primary_btn btn p-0 primary_btn_bgclr text-center fw-bold primary_btn_txtclr">
+                    Submit Form
+                  </button>
+                </div>
               </div>
             </form>
 
