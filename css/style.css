@@ -3,6 +3,10 @@ body {
     background-color: #E3E3E34F;
 }
 
+.ffpop {
+    font-family: 'Poppins', sans-serif !important;
+}
+
 .fs14 {
     font-size: 14px;
 }
@@ -38,6 +42,15 @@ body {
 
 .onn .b2.col-lg-5 {
     width: 38% !important;
+}
+
+.footer-logo {
+    margin-left: 100px;
+}
+
+.card-home {
+    width: 652px;
+    height: 327px;
 }
 
 .owl-nav {
@@ -161,6 +174,10 @@ input[id="cb1"] {
 
 .fs20 {
     font-size: 20px;
+}
+
+.fs22 {
+    font-size: 22px;
 }
 
 .fs24 {
@@ -616,8 +633,8 @@ footer {
 }
 
 footer .data1 {
-    padding-top: 20px;
-    height: 517px;
+    /* padding-top: 20px; */
+    height: 440px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -695,6 +712,15 @@ footer h4 {
     }
     .owl-nav {
         margin-left: 0px !important;
+    }
+    .err {
+        margin-top: -47px !important;
+    }
+    .fsm36 {
+        font-size: 36px !important;
+    }
+    .onn .b2.col-lg-5 {
+        width: 100% !important;
     }
     .shop .shop_section1 {
         background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
@@ -959,7 +985,9 @@ footer h4 {
         width: 36%;
     }
     footer .footer-logo img {
-        width: 50% !important;
+        /* width: 50% !important; */
+        width: 78px !important;
+        height: 33px !important;
     }
     footer .footer-logo .visacard img {
         width: 100% !important;
@@ -986,6 +1014,15 @@ footer h4 {
     }
     .owl-nav {
         margin-left: 0px !important;
+    }
+    .err {
+        margin-top: -47px !important;
+    }
+    .fsm36 {
+        font-size: 36px !important;
+    }
+    .onn .b2.col-lg-5 {
+        width: 100% !important;
     }
     .shop .shop_section1 {
         background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
@@ -1254,7 +1291,9 @@ footer h4 {
         width: 36%;
     }
     footer .footer-logo img {
-        width: 50% !important;
+        /* width: 50% !important; */
+        width: 78px !important;
+        height: 33px !important;
     }
     footer .footer-logo .visacard img {
         width: 100% !important;
@@ -1273,6 +1312,15 @@ footer h4 {
     }
     .owl-nav {
         margin-left: 0px !important;
+    }
+    .err {
+        margin-top: -47px !important;
+    }
+    .fsm36 {
+        font-size: 36px !important;
+    }
+    .onn .b2.col-lg-5 {
+        width: 100% !important;
     }
     .shop .shop_section1 {
         background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
@@ -1538,7 +1586,9 @@ footer h4 {
         width: 36%;
     }
     footer .footer-logo img {
-        width: 50% !important;
+        /* width: 50% !important; */
+        width: 78px !important;
+        height: 33px !important;
     }
     footer .footer-logo .visacard img {
         width: 100% !important;
@@ -1557,6 +1607,15 @@ footer h4 {
     }
     .owl-nav {
         margin-left: 0px !important;
+    }
+    .err {
+        margin-top: -47px !important;
+    }
+    .fsm36 {
+        font-size: 36px !important;
+    }
+    .onn .b2.col-lg-5 {
+        width: 100% !important;
     }
     .shop .shop_section1 {
         background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
@@ -1820,7 +1879,9 @@ footer h4 {
         width: 36%;
     }
     footer .footer-logo img {
-        width: 50% !important;
+        /* width: 50% !important; */
+        width: 78px !important;
+        height: 33px !important;
     }
     footer .footer-logo .visacard img {
         width: 100% !important;
@@ -1909,33 +1970,12 @@ footer h4 {
         height: 350px !important;
     }
     .home .head-box {
-        top: 0 !important;
+        top: 24px !important;
         max-width: 1150px !important;
         transform: scale(0.5, 0.5) !important;
     }
-    .home .fs72 {
-        font-size: 29px !important;
-    }
-    .home .hero .fs24 {
-        font-size: 16px !important;
-    }
-    /* .home .fs24 {
-        font-size: 24px !important;
-    } */
-    .home .fs20 {
-        font-size: 11px !important;
-    }
-    .home .fs18 {
-        font-size: 11px !important;
-    }
     .shop .fs18 {
         font-size: 18px !important;
-    }
-    .home .fs48 {
-        font-size: 27px !important;
-    }
-    .home .fs40 {
-        font-size: 16px;
     }
     .shop header {
         margin-top: 150px !important;
@@ -1945,32 +1985,17 @@ footer h4 {
         position: relative;
         top: 210px;
     }
+    .footer-logo {
+        margin-left: 70px;
+    }
+    .data11.fs18 {
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 1110px) and (min-width: 1030px) {
-    .home .fs72 {
-        font-size: 29px !important;
-    }
-    .home .hero .fs24 {
-        font-size: 16px !important;
-    }
-    /* .home .fs24 {
-        font-size: 24px !important;
-    } */
-    .home .fs20 {
-        font-size: 11px !important;
-    }
-    .home .fs18 {
-        font-size: 11px !important;
-    }
     .shop .fs18 {
         font-size: 18px !important;
-    }
-    .home .fs48 {
-        font-size: 27px !important;
-    }
-    .home .fs40 {
-        font-size: 16px;
     }
     header .head-box {
         top: -60px;
@@ -2045,10 +2070,10 @@ footer h4 {
     }
     .home header {
         height: 250px !important;
-        margin-top: 0 !important;
+        margin-top: -180px !important;
     }
     .home .head-box {
-        top: 0 !important;
+        top: -10px !important;
         max-width: 1150px !important;
     }
     .shop header {
@@ -2059,32 +2084,17 @@ footer h4 {
         position: relative;
         top: 210px;
     }
+    .footer-logo {
+        margin-left: 70px;
+    }
+    .data11.fs18 {
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 1280px) and (min-width: 1110px) {
-    .home .fs72 {
-        font-size: 29px !important;
-    }
-    .home .hero .fs24 {
-        font-size: 16px !important;
-    }
-    /* .home .fs24 {
-        font-size: 24px !important;
-    } */
-    .home .fs20 {
-        font-size: 11px !important;
-    }
-    .home .fs18 {
-        font-size: 11px !important;
-    }
     .shop .fs18 {
         font-size: 18px !important;
-    }
-    .home .fs48 {
-        font-size: 27px !important;
-    }
-    .home .fs40 {
-        font-size: 16px;
     }
     .dash header .head-box {
         top: 0px;
@@ -2154,7 +2164,7 @@ footer h4 {
         cursor: pointer;
     }
     .home header {
-        margin-top: 0 !important;
+        /* margin-top: 0 !important; */
         height: 250px !important;
     }
     .home .head-box {
@@ -2169,35 +2179,20 @@ footer h4 {
         position: relative;
         top: 210px;
     }
+    .footer-logo {
+        margin-left: 70px;
+    }
+    .data11.fs18 {
+        width: 100% !important;
+    }
 }
 
 
 /* 1200 screen 120% */
 
 @media (max-width: 1400px) and (min-width: 1280px) {
-    .home .fs72 {
-        font-size: 29px !important;
-    }
-    .home .hero .fs24 {
-        font-size: 16px !important;
-    }
-    /* .home .fs24 {
-        font-size: 24px !important;
-    } */
-    .home .fs20 {
-        font-size: 11px !important;
-    }
-    .home .fs18 {
-        font-size: 11px !important;
-    }
     .shop .fs18 {
         font-size: 18px !important;
-    }
-    .home .fs48 {
-        font-size: 27px !important;
-    }
-    .home .fs40 {
-        font-size: 16px;
     }
     header {
         height: 168px !important;
@@ -2214,6 +2209,15 @@ footer h4 {
     }
     .owl-nav {
         margin-left: 0px !important;
+    }
+    .err {
+        margin-top: -47px !important;
+    }
+    .fsm36 {
+        font-size: 36px !important;
+    }
+    .onn .b2.col-lg-5 {
+        width: 100% !important;
     }
     .shop .shop_section1 {
         background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
@@ -2257,7 +2261,7 @@ footer h4 {
         width: 65%;
     }
     .home header {
-        margin-top: 0 !important;
+        /* margin-top: 0 !important; */
         height: 250px !important;
     }
     .home .head-box {
@@ -2272,35 +2276,20 @@ footer h4 {
         position: relative;
         top: 210px;
     }
+    .footer-logo {
+        margin-left: -80px;
+    }
+    .data11.fs18 {
+        width: 100% !important;
+    }
 }
 
 
 /* 1400 screen 110% */
 
 @media (max-width: 1500px) and (min-width: 1400px) {
-    .home .fs72 {
-        font-size: 29px !important;
-    }
-    .home .hero .fs24 {
-        font-size: 16px !important;
-    }
-    /* .home .fs24 {
-        font-size: 24px !important;
-    } */
-    .home .fs20 {
-        font-size: 11px !important;
-    }
-    .home .fs18 {
-        font-size: 11px !important;
-    }
     .shop .fs18 {
         font-size: 18px !important;
-    }
-    .home .fs48 {
-        font-size: 27px !important;
-    }
-    .home .fs40 {
-        font-size: 16px;
     }
     header {
         height: 200px !important;
@@ -2340,7 +2329,7 @@ footer h4 {
         cursor: pointer;
     }
     .home header {
-        margin-top: 0 !important;
+        /* margin-top: 0 !important; */
         height: 250px !important;
     }
     .home .head-box {
@@ -2354,18 +2343,25 @@ footer h4 {
         position: relative;
         top: 210px;
     }
+    .footer-logo {
+        margin-left: 30px;
+    }
+    .data11.fs18 {
+        width: 100% !important;
+    }
+    .bb1 {
+        width: 40% !important;
+        left: 80px !important;
+    }
+    .bb2 {
+        width: 60%;
+    }
 }
 
 
 /* Normal screen 1500 100% */
 
 @media (max-width: 1600px) and (min-width: 1500px) {
-    .home .fs72 {
-        font-size: 50px !important;
-    }
-    .home .fs40 {
-        font-size: 30px;
-    }
     header {
         height: 200px;
     }
@@ -2392,7 +2388,7 @@ footer h4 {
         /* transform: scale(0.6, 0.6); */
     }
     .home header {
-        margin-top: 0 !important;
+        /* margin-top: 0 !important; */
         height: 250px !important;
     }
     .home .head-box {
@@ -2405,6 +2401,19 @@ footer h4 {
         width: 130%;
         position: relative;
         top: 210px;
+    }
+    .footer-logo {
+        margin-left: 130px;
+    }
+    .data11.fs18 {
+        width: 100% !important;
+    }
+    .bb1 {
+        width: 40% !important;
+        left: 80px !important;
+    }
+    .bb2 {
+        width: 60%;
     }
 }
 
@@ -2438,7 +2447,7 @@ footer h4 {
         /* transform: scale(0.6, 0.6); */
     }
     .home header {
-        margin-top: 0 !important;
+        /* margin-top: 0 !important; */
     }
     .home .head-box {
         max-width: 1200px !important;
@@ -2450,6 +2459,12 @@ footer h4 {
         width: 130%;
         position: relative;
         top: 120px;
+    }
+    .footer-logo {
+        margin-left: 140px;
+    }
+    .data11.fs18 {
+        width: 100% !important;
     }
 }
 

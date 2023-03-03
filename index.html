@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="Description" content="Enter your description here" />
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sora&display=swap" rel="stylesheet" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
@@ -19,13 +19,33 @@
         integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Title</title>
+    <link rel="stylesheet" href="css/custom.scss" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="media/favicons/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="media/favicons/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="media/favicons/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="media/favicons/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="media/favicons/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="media/favicons/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="media/favicons/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="media/favicons/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="media/favicons/apple-icon-180x180.png" />
+    <!-- <link rel="icon" type="image/png" sizes="192x192" href="media/favicons/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="media/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="media/favicons/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="media/favicons/favicon-16x16.png" /> -->
+    <link rel="shortcut icon" href="media/favicons/favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="media/favicons/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="media/favicons/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Home</title>
 </head>
 
 <body>
     <div class="page-wrapper container-fluid p-0 dash home">
         <div class="d-nav container-fluid m-0 d-flex justify-content-center position-fixed w-100" style="
-          background-color: #f4f4f44f;
+          background-color: #f4f4f4;
 
           background-position: center center;
           height: 110px;
@@ -142,11 +162,9 @@
                     </div>
 
                     <div class="w-100 collapse navnav text-white" id="navbarNav" style="
-                background: linear-gradient(
-                  343.48deg,
-                  #ed7c58 -3.51%,
-                  #ffc266 92.11%
-                );
+              background:url(media/backgrounds/navbg.png) no-repeat;
+                background-size: cover;
+                background-position: center center;
               ">
                         <div class="w-100 p-4">
                             <ul class="navbar-nav align-items-center gap-4">
@@ -188,9 +206,9 @@
 
         <div class="hero content container-fluid" style="margin-top: 100px;">
             <div class="row justify-content-end">
-                <div class="bb1 order-1 order-lg-0 col-lg-4 d-flex flex-column  position-relative"
-                    style="top:150px;left: 150px;">
-                    <h5 class="fs24 text-clr fsm16">Developer &amp; Programmer</h5>
+                <div class="bb1 order-1 order-lg-0 col-xxl-4 col-xl-6  col-lg-6 d-flex flex-column  position-relative"
+                    style="top:150px;left: 100px;">
+                    <h5 class="fs24 text-clr fsm16 ffpop">Developer &amp; Programmer</h5>
                     <h2 class="fs72 fw-bolder  text-capitalize">Build your own <span class="text-clr"> Career </span>
                         with coding.
                     </h2>
@@ -216,8 +234,8 @@
                             Live Classes</a>
                     </div>
                 </div>
-                <div class="col-lg-8 order-0 order-lg-1">
-                    <img class="w-100" src="media/backgrounds/3d_rn_23_web002 1.png" alt="">
+                <div class="bb2 col-xxl-8 col-xl-6 col-lg-6 order-0 order-lg-1">
+                    <img class="" src="media/backgrounds/3d_rn_23_web002 1.png" alt="">
                 </div>
             </div>
 
@@ -294,7 +312,7 @@
         </header>
 
         <section class="content">
-            <div class="container-fluid py-lg-5 pt-5 ss" style="width: 90%;">
+            <div class="container-fluid py-lg-5 pt-5 ss" style="width: 89%;">
                 <div class="row justify-content-between align-items-center mb-5">
                     <div class="col-lg-3">
                         <h5 class="text-clr fs20">Resources</h5>
@@ -315,12 +333,13 @@
                 </div>
 
                 <div class="row justify-content-between gap-lg-0 gap-0">
-                    <div class="mb-lg-5 col-lg-5 d-flex  flex-wrap  justify-content-lg-start justify-content-between">
-                        <div class="col-lg-7 col-12">
+                    <div
+                        class="card-home mb-lg-5 col-xxl-5 col-xl-5 col-lg-8 d-flex  flex-wrap  justify-content-lg-start justify-content-between">
+                        <div class="col-lg-6 col-12">
                             <img src="media/backgrounds/Image.png" class="w-100 h-100" alt="">
                         </div>
                         <div
-                            class="col-lg-5 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
+                            class="col-xxl-6 col-xl-6 col-lg-6 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
                             <div class="fs24 col-lg-11 col-8">Fox Nymphs Grab Quick-jived</div>
                             <div class="fs24 col-lg-6 col-4 pt-lg-0 pt-4">$ 249.00</div>
                             <div class="col-lg-7 col-6 mt-lg-0 mt-4"><button
@@ -329,27 +348,13 @@
                                 </button></div>
                         </div>
                     </div>
-                    <div class="mb-lg-5 col-lg-5 d-flex  flex-wrap justify-content-lg-start justify-content-between">
-                        <div class="col-lg-7 col-12">
+                    <div
+                        class="card-home mb-lg-5 col-xxl-5 col-xl-5 col-lg-8 d-flex  flex-wrap justify-content-lg-start justify-content-between">
+                        <div class="col-lg-6 col-12">
                             <img src="media/backgrounds/Image.png" class="w-100 h-100" alt="">
                         </div>
                         <div
-                            class="col-lg-5 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
-                            <div class="fs24 col-lg-11 col-8">Fox Nymphs Grab Quick-jived</div>
-                            <div class="fs24 col-lg-6 col-4 pt-lg-0 pt-4">$ 249.00</div>
-                            <div class="col-lg-7 col-6 mt-lg-0 mt-4"><button
-                                    class="w-100 primary_btn bg-transparent btn p-0  fs20 fw-bold text-center primary_btn_txtclr">
-                                    Buy Now
-                                </button></div>
-                        </div>
-                    </div>
-
-                    <div class="mb-lg-5 col-lg-5 d-flex  flex-wrap justify-content-lg-start justify-content-between">
-                        <div class="col-lg-7 col-12">
-                            <img src="media/backgrounds/Image.png" class="w-100 h-100" alt="">
-                        </div>
-                        <div
-                            class="col-lg-5 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
+                            class="col-xxl-6 col-xl-6 col-lg-6 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
                             <div class="fs24 col-lg-11 col-8">Fox Nymphs Grab Quick-jived</div>
                             <div class="fs24 col-lg-6 col-4 pt-lg-0 pt-4">$ 249.00</div>
                             <div class="col-lg-7 col-6 mt-lg-0 mt-4"><button
@@ -359,13 +364,13 @@
                         </div>
                     </div>
 
-
-                    <div class="mb-lg-5 col-lg-5 d-flex  flex-wrap justify-content-lg-start justify-content-between">
-                        <div class="col-lg-7 col-12">
+                    <div
+                        class="card-home mb-lg-5 col-xxl-5 col-xl-5 col-lg-8 d-flex  flex-wrap justify-content-lg-start justify-content-between">
+                        <div class="col-lg-6 col-12">
                             <img src="media/backgrounds/Image.png" class="w-100 h-100" alt="">
                         </div>
                         <div
-                            class="col-lg-5 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
+                            class="col-xxl-6 col-xl-6 col-lg-6 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
                             <div class="fs24 col-lg-11 col-8">Fox Nymphs Grab Quick-jived</div>
                             <div class="fs24 col-lg-6 col-4 pt-lg-0 pt-4">$ 249.00</div>
                             <div class="col-lg-7 col-6 mt-lg-0 mt-4"><button
@@ -376,12 +381,13 @@
                     </div>
 
 
-                    <div class="mb-lg-5 col-lg-5 d-flex  flex-wrap justify-content-lg-start justify-content-between">
-                        <div class="col-lg-7 col-12">
+                    <div
+                        class="card-home mb-lg-5 col-xxl-5 col-xl-5 col-lg-8 d-flex  flex-wrap justify-content-lg-start justify-content-between">
+                        <div class="col-lg-6 col-12">
                             <img src="media/backgrounds/Image.png" class="w-100 h-100" alt="">
                         </div>
                         <div
-                            class="col-lg-5 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
+                            class="col-xxl-6 col-xl-6 col-lg-6 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
                             <div class="fs24 col-lg-11 col-8">Fox Nymphs Grab Quick-jived</div>
                             <div class="fs24 col-lg-6 col-4 pt-lg-0 pt-4">$ 249.00</div>
                             <div class="col-lg-7 col-6 mt-lg-0 mt-4"><button
@@ -392,12 +398,30 @@
                     </div>
 
 
-                    <div class="mb-lg-5 col-lg-5 d-flex  flex-wrap justify-content-lg-start justify-content-between">
-                        <div class="col-lg-7 col-12">
+                    <div
+                        class="card-home mb-lg-5 col-xxl-5 col-xl-5 col-lg-8 d-flex  flex-wrap justify-content-lg-start justify-content-between">
+                        <div class="col-lg-6 col-12">
                             <img src="media/backgrounds/Image.png" class="w-100 h-100" alt="">
                         </div>
                         <div
-                            class="col-lg-5 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
+                            class="col-xxl-6 col-xl-6 col-lg-6 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
+                            <div class="fs24 col-lg-11 col-8">Fox Nymphs Grab Quick-jived</div>
+                            <div class="fs24 col-lg-6 col-4 pt-lg-0 pt-4">$ 249.00</div>
+                            <div class="col-lg-7 col-6 mt-lg-0 mt-4"><button
+                                    class="w-100 primary_btn bg-transparent btn p-0  fs20 fw-bold text-center primary_btn_txtclr">
+                                    Buy Now
+                                </button></div>
+                        </div>
+                    </div>
+
+
+                    <div
+                        class="card-home mb-lg-5 col-xxl-5 col-xl-5 col-lg-8 d-flex  flex-wrap justify-content-lg-start justify-content-between">
+                        <div class="col-lg-6 col-12">
+                            <img src="media/backgrounds/Image.png" class="w-100 h-100" alt="">
+                        </div>
+                        <div
+                            class="col-xxl-6 col-xl-6 col-lg-6 col-12 bg-white d-flex py-5 align-items-center gap-lg-4 flex-wrap flex-lg-column align-items-lg-baseline justify-content-between ps-lg-5">
                             <div class="fs24 col-lg-11 col-8">Fox Nymphs Grab Quick-jived</div>
                             <div class="fs24 col-lg-6 col-4 pt-lg-0 pt-4">$ 249.00</div>
                             <div class="col-lg-7 col-6 mt-lg-0 mt-4"><button
@@ -415,7 +439,7 @@
             <div class="container-fluid pt-3">
                 <div class="row">
                     <div class="col-lg-6" style="background-color: #f6f6f6;">
-                        <img src="/media/backgrounds/business6a0011 1.png" class="w-100" alt="">
+                        <img src="media/backgrounds/business6a0011 1.png" class="w-100" alt="">
                     </div>
                     <div class="col-lg-6 d-flex flex-column text-lg-start text-center px-lg-4 justify-content-center">
                         <h5 class="fs24 text-clr mb-4 mt-5">Testimonial</h5>
@@ -573,7 +597,7 @@
             </div>
         </section>
 
-        <section class="content cnn" style="background-image: url(/media/backgrounds/Content.png);">
+        <section class="content cnn" style="background-image: url(media/backgrounds/Content.png);">
             <div class="container-fluid py-5 sss" style="width: 90%;">
                 <div class="row justify-content-between text-center text-lg-start align-items-center mb-5 text-white">
                     <div class="col-lg-3 col-12">
@@ -926,25 +950,25 @@
                         </button>
                         <div class="row mt-3 mb-3">
                             <div class="col-lg-6 col-12">
-                                <div class="col-lg-6 mb-3">
-                                    <span class="fs20" style="color: #808697">Want to get a service?</span>
-                                </div>
-                                <div class="col-lg-6">
-                                    <span class="fs20">Get in touch below</span>
-                                </div>
-                                <div class="col-lg-6">
-                                    <span class="fs24 fsm20 fw-bold">Services@webofcoding.com</span>
-                                </div>
+
+                                <span class="fs20" style="color: #808697">Want to get a service?</span>
+                                <br>
+                                <span class="fs20">Get in touch below</span>
+
+                                <a href="mailto:Services@webofcoding.com"
+                                    class="fs24 fsm20 fw-bold">Services@webofcoding.com </a>
+
                             </div>
                             <div class="col-lg-6 col-12">
-                                <div class="col-lg-6 mb-3">
+                                <div class=" mb-3">
                                     <span class="fs20" style="color: #808697">Want to say hello?</span>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class=" col-12">
                                     <span class="fs20">General Inquiries</span>
                                 </div>
-                                <div class="col-lg-6">
-                                    <span class="fs24 fsm20 fw-bold">Info@webofcoding.com</span>
+                                <div class="col-lg-6 col-12 ">
+                                    <a href="mailto:Info@webofcoding.com"
+                                        class="fs24 fsm20 fw-bold">Info@webofcoding.com </a>
 
                                 </div>
                             </div>
@@ -981,7 +1005,7 @@
                 </div>
                 <div class="data col-12 col-lg-8">
                     <div class="comdetails">
-                        <h4 class="text-white fs22 fw-bold">Terms</h4>
+                        <h4 class="text-white fs22 fsm24 mb-4 fw-bold">Terms</h4>
 
                         <ul class="list-unstyled text-light">
                             <li class="mb-3">
@@ -993,7 +1017,7 @@
                         </ul>
                     </div>
                     <div class="Links">
-                        <h4 class="text-white fs22 fw-bold">Links</h4>
+                        <h4 class="text-white fs22 fsm24 mb-4 fw-bold">Links</h4>
 
                         <div class="d-flex flex-column text-light">
                             <ul class="list-unstyled gap-3">
@@ -1005,7 +1029,7 @@
                         </div>
                     </div>
                     <div class="Support">
-                        <h4 class="text-white fs22 fw-bold">Contact Us</h4>
+                        <h4 class="text-white fs22 f fsm24w-bold">Contact Us</h4>
                         <ul class="list-unstyled text-light">
                             <li class="mb-3"><a href="" class="fs18"> ABC Limited,</a></li>
                             <li class="mb-3"><a href="" class="fs18"> 100 ABC Road,</a></li>
