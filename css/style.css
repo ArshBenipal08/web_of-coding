@@ -31,6 +31,11 @@ body {
     font-size: 30px;
 }
 
+.icn {
+    width: 32px;
+    /* height: 32px; */
+}
+
 
 /* .forms1 {
     width: 1360px!important;
@@ -61,15 +66,6 @@ body {
     margin-left: -90px;
 }
 
-.shop input[class="cb1"]+label {
-    display: inline-block;
-    width: 26px;
-    height: 26px;
-    border: 2px solid #FF7081;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
 input[class="cb1"]:checked+label:after {
     position: relative;
     top: -1px;
@@ -77,6 +73,10 @@ input[class="cb1"]:checked+label:after {
     content: '\2714';
     color: #FF7081;
     font-size: 14px;
+}
+
+.part2 {
+    margin-top: 65px;
 }
 
 .home header {
@@ -110,7 +110,7 @@ input[class="cb1"] {
 
 input[id="cb1"]+label {
     display: inline-block;
-    width: 32px;
+    width: 38px;
     height: 26px;
     border: 2px solid #FF7081;
     border-radius: 50%;
@@ -122,6 +122,33 @@ input[id="cb1"]+label {
 }
 
 input[id="cb1"]:checked+label:after {
+    position: relative;
+    top: -1px;
+    left: 5px;
+    content: '\2714';
+    color: #FF7081;
+    font-size: 14px;
+}
+
+.shop input[class="cb1"]+label {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #FF7081;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.log input[id="cb1"]+label {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border: 2px solid #FF7081;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.log input[id="cb1"]:checked+label:after {
     position: relative;
     top: -1px;
     left: 5px;
@@ -219,12 +246,27 @@ input[id="cb1"] {
 .backIMG {
     position: absolute;
     width: 70%;
-    height: 100%;
+    height: 110%;
     background-repeat: no-repeat;
-    background-position: -20px center;
+    background-position: -17px -59px;
     background-size: cover;
     left: 0;
     background-image: url(../media/backgrounds/whyus1.png);
+}
+
+.ono .backIMG {
+    position: absolute;
+    width: 53%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: -50px center;
+    background-size: cover;
+    left: 0;
+    background-image: url(../media/backgrounds/whyus1.png);
+}
+
+.ono .part2 {
+    margin-top: 0;
 }
 
 .bline {
@@ -309,7 +351,7 @@ ul {
 }
 
 .slct {
-    width: 236px;
+    /* width: 236px; */
     height: 48px;
     /* Neutral/White */
     border: 3px solid #FFFFFF;
@@ -338,6 +380,7 @@ ul {
     box-shadow: 2px 1000px 1px #fff inset;
     border-radius: 20px;
     width: 100%;
+    /* background: white; */
 }
 
 .fa-chevron-down {
@@ -348,8 +391,10 @@ ul {
     background: #FF7081;
     border-radius: 20px;
     color: white;
-    height: 184px;
-    box-shadow: 2px 1000px 1px #FF7081 inset;
+    height: auto;
+    box-shadow: 2px 1000px 1px #ffffff00 inset;
+    /* box-shadow: 2px 1000px 1px #FF7081 inset; */
+    background: radial-gradient(86.8% 325.5% at 8% 0%, #FFB589 0%, #FF7081 100%);
 }
 
 .faq.active::before {
@@ -538,6 +583,22 @@ header .head-box h2 {
     position: relative;
 }
 
+.log .forms {
+    margin-left: 233px;
+}
+
+.pass {
+    position: relative;
+}
+
+.pass .icon {
+    position: absolute;
+    right: 35px;
+    width: 10px;
+    height: 10px;
+    top: 16px;
+}
+
 .checkbox {
     width: 22px;
     height: 22px;
@@ -620,6 +681,11 @@ header .head-box h2 {
 .img-box {
     background-size: cover;
     background-position: -200px center;
+}
+
+.sign .img-box {
+    background-size: cover;
+    background-position: -288px center;
 }
 
 footer {
@@ -710,8 +776,18 @@ footer h4 {
     .ooo .contact_section {
         height: auto !important;
     }
+    .filtrs {
+        width: 100% !important;
+    }
+    .card-home {
+        height: auto;
+        width: 100%;
+    }
     .owl-nav {
         margin-left: 0px !important;
+    }
+    .log .forms {
+        margin-left: 0px;
     }
     .err {
         margin-top: -47px !important;
@@ -735,13 +811,16 @@ footer h4 {
     }
     .shop .shop_section1 p,
     .shop .shop_section1 select {
-        width: 90%;
+        width: 100%;
     }
     .fsm32 {
         font-size: 32px !important;
     }
     .fsm28 {
         font-size: 28px !important;
+    }
+    .fsm36 {
+        font-size: 36px !important;
     }
     .fsm20 {
         font-size: 20px !important;
@@ -824,6 +903,14 @@ footer h4 {
     .home .hero {
         text-align: center;
     }
+    .log input[id="cb1"]+label {
+        display: inline-block;
+        width: 38px;
+        height: 26px;
+        border: 2px solid #FF7081;
+        border-radius: 50%;
+        cursor: pointer;
+    }
     .home .fs72 {
         font-size: 36px !important;
     }
@@ -871,9 +958,6 @@ footer h4 {
     .home footer .data1 {
         width: 100% !important;
     }
-    .home .fs40 {
-        font-size: 16px;
-    }
     .cart_part {
         height: auto !important;
         border-radius: 0 !important;
@@ -891,12 +975,21 @@ footer h4 {
         height: 309px;
         background-position: -110px center;
     }
+    .log .img-box {
+        background-position: -212px center;
+    }
+    .sign .img-box {
+        background-position: -110px center;
+    }
     header.login {
         background: url(../media/backgrounds/headBG.png) !important;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        height: 388px !important;
         /* background-image: url(../media/backgrounds/login_mobile.png) !important; */
     }
     .btn1 {
@@ -1012,8 +1105,18 @@ footer h4 {
     .ooo .contact_section {
         height: auto !important;
     }
+    .filtrs {
+        width: 100% !important;
+    }
+    .card-home {
+        height: auto;
+        width: 100%;
+    }
     .owl-nav {
         margin-left: 0px !important;
+    }
+    .log .forms {
+        margin-left: 0px;
     }
     .err {
         margin-top: -47px !important;
@@ -1037,13 +1140,16 @@ footer h4 {
     }
     .shop .shop_section1 p,
     .shop .shop_section1 select {
-        width: 90%;
+        width: 100%;
     }
     .fsm32 {
         font-size: 32px !important;
     }
     .fsm28 {
         font-size: 28px !important;
+    }
+    .fsm36 {
+        font-size: 36px !important;
     }
     .fsm20 {
         font-size: 20px !important;
@@ -1126,6 +1232,14 @@ footer h4 {
     .home .hero {
         text-align: center;
     }
+    .log input[id="cb1"]+label {
+        display: inline-block;
+        width: 38px;
+        height: 26px;
+        border: 2px solid #FF7081;
+        border-radius: 50%;
+        cursor: pointer;
+    }
     .home .fs72 {
         font-size: 36px !important;
     }
@@ -1173,9 +1287,6 @@ footer h4 {
     .home footer .data1 {
         width: 100% !important;
     }
-    .home .fs40 {
-        font-size: 16px;
-    }
     .cart_part {
         height: auto !important;
         border-radius: 0 !important;
@@ -1193,12 +1304,21 @@ footer h4 {
         height: 309px;
         background-position: -110px center;
     }
+    .log .img-box {
+        background-position: -212px center;
+    }
+    .sign .img-box {
+        background-position: -110px center;
+    }
     header.login {
         background: url(../media/backgrounds/headBG.png) !important;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        height: 388px !important;
         /* background-image: url(../media/backgrounds/login_mobile.png) !important; */
     }
     .btn1 {
@@ -1289,6 +1409,7 @@ footer h4 {
     footer .footer-logo {
         order: 3;
         width: 36%;
+        margin-left: 0;
     }
     footer .footer-logo img {
         /* width: 50% !important; */
@@ -1310,8 +1431,18 @@ footer h4 {
     .ooo .contact_section {
         height: auto !important;
     }
+    .filtrs {
+        width: 100% !important;
+    }
+    .card-home {
+        height: auto;
+        width: 100%;
+    }
     .owl-nav {
         margin-left: 0px !important;
+    }
+    .log .forms {
+        margin-left: 0px;
     }
     .err {
         margin-top: -47px !important;
@@ -1335,13 +1466,16 @@ footer h4 {
     }
     .shop .shop_section1 p,
     .shop .shop_section1 select {
-        width: 90%;
+        width: 100%;
     }
     .fsm32 {
         font-size: 32px !important;
     }
     .fsm28 {
         font-size: 28px !important;
+    }
+    .fsm36 {
+        font-size: 36px !important;
     }
     .fsm20 {
         font-size: 20px !important;
@@ -1424,6 +1558,14 @@ footer h4 {
     .home .hero {
         text-align: center;
     }
+    .log input[id="cb1"]+label {
+        display: inline-block;
+        width: 38px;
+        height: 26px;
+        border: 2px solid #FF7081;
+        border-radius: 50%;
+        cursor: pointer;
+    }
     .home .fs72 {
         font-size: 36px !important;
     }
@@ -1471,9 +1613,6 @@ footer h4 {
     .home footer .data1 {
         width: 100% !important;
     }
-    .home .fs40 {
-        font-size: 16px;
-    }
     .cart_part {
         height: auto !important;
         border-radius: 0 !important;
@@ -1491,12 +1630,21 @@ footer h4 {
         height: 309px;
         background-position: -110px center;
     }
+    .log .img-box {
+        background-position: -212px center;
+    }
+    .sign .img-box {
+        background-position: -110px center;
+    }
     header.login {
         background: url(../media/backgrounds/headBG.png) !important;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        height: 388px !important;
         /* background-image: url(../media/backgrounds/login_mobile.png) !important; */
     }
     .btn1 {
@@ -1584,6 +1732,7 @@ footer h4 {
     footer .footer-logo {
         order: 3;
         width: 36%;
+        margin-left: 0;
     }
     footer .footer-logo img {
         /* width: 50% !important; */
@@ -1605,8 +1754,18 @@ footer h4 {
     .ooo .contact_section {
         height: auto !important;
     }
+    .filtrs {
+        width: 100% !important;
+    }
+    .card-home {
+        height: auto;
+        width: 100%;
+    }
     .owl-nav {
         margin-left: 0px !important;
+    }
+    .log .forms {
+        margin-left: 0px;
     }
     .err {
         margin-top: -47px !important;
@@ -1630,13 +1789,16 @@ footer h4 {
     }
     .shop .shop_section1 p,
     .shop .shop_section1 select {
-        width: 90%;
+        width: 100%;
     }
     .fsm32 {
         font-size: 32px !important;
     }
     .fsm28 {
         font-size: 28px !important;
+    }
+    .fsm36 {
+        font-size: 36px !important;
     }
     .fsm20 {
         font-size: 20px !important;
@@ -1719,6 +1881,14 @@ footer h4 {
     .home .hero {
         text-align: center;
     }
+    .log input[id="cb1"]+label {
+        display: inline-block;
+        width: 38px;
+        height: 26px;
+        border: 2px solid #FF7081;
+        border-radius: 50%;
+        cursor: pointer;
+    }
     .home .fs72 {
         font-size: 36px !important;
     }
@@ -1766,9 +1936,6 @@ footer h4 {
     .home footer .data1 {
         width: 100% !important;
     }
-    .home .fs40 {
-        font-size: 16px;
-    }
     .cart_part {
         height: auto !important;
         border-radius: 0 !important;
@@ -1786,12 +1953,21 @@ footer h4 {
         height: 309px;
         background-position: -110px center;
     }
+    .log .img-box {
+        background-position: -212px center;
+    }
+    .sign .img-box {
+        background-position: -110px center;
+    }
     header.login {
         background: url(../media/backgrounds/headBG.png) !important;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        height: 388px !important;
         /* background-image: url(../media/backgrounds/login_mobile.png) !important; */
     }
     .btn1 {
@@ -1877,6 +2053,7 @@ footer h4 {
     footer .footer-logo {
         order: 3;
         width: 36%;
+        margin-left: 0;
     }
     footer .footer-logo img {
         /* width: 50% !important; */
@@ -1908,6 +2085,9 @@ footer h4 {
     }
     .fsm28 {
         font-size: 28px !important;
+    }
+    .fsm36 {
+        font-size: 36px !important;
     }
     .fsm20 {
         font-size: 20px !important;
@@ -1991,6 +2171,43 @@ footer h4 {
     .data11.fs18 {
         width: 100% !important;
     }
+    .backIMG {
+        position: absolute;
+        width: 70%;
+        height: 125%;
+        background-repeat: no-repeat;
+        background-position: -490px -100px;
+        background-size: cover;
+        left: 0;
+        /* background-image: url(../media/backgrounds/whyus1.png); */
+    }
+    .bb2.b2.col-lg-5 {
+        left: 0px;
+        width: 50% !important;
+    }
+    .part2 {
+        margin-top: 200px;
+        height: auto;
+    }
+    .part3 {
+        margin-top: 0px !important;
+    }
+    .part2 .imgs {
+        display: none !important;
+    }
+    .part2 img {
+        display: inline-block !important;
+    }
+    .ono .backIMG {
+        position: absolute;
+        width: 70%;
+        height: 100%;
+        background-repeat: no-repeat;
+        /* background-position: -352px center; */
+        background-size: contain;
+        left: 0;
+        /* background-image: url(../media/backgrounds/whyus1.png); */
+    }
 }
 
 @media (max-width: 1110px) and (min-width: 1030px) {
@@ -2010,6 +2227,9 @@ footer h4 {
     }
     .fsm28 {
         font-size: 28px !important;
+    }
+    .fsm36 {
+        font-size: 36px !important;
     }
     .fsm20 {
         font-size: 20px !important;
@@ -2090,6 +2310,43 @@ footer h4 {
     .data11.fs18 {
         width: 100% !important;
     }
+    .backIMG {
+        position: absolute;
+        width: 70%;
+        height: 125%;
+        background-repeat: no-repeat;
+        background-position: -490px -100px;
+        background-size: cover;
+        left: 0;
+        /* background-image: url(../media/backgrounds/whyus1.png); */
+    }
+    .bb2.b2.col-lg-5 {
+        left: 0px;
+        width: 50% !important;
+    }
+    .part2 {
+        margin-top: 150px;
+        height: auto;
+    }
+    .part3 {
+        margin-top: 0px !important;
+    }
+    .part2 .imgs {
+        display: none !important;
+    }
+    .part2 img {
+        display: inline-block !important;
+    }
+    .ono .backIMG {
+        position: absolute;
+        width: 70%;
+        height: 100%;
+        background-repeat: no-repeat;
+        /* background-position: -352px center; */
+        background-size: contain;
+        left: 0;
+        /* background-image: url(../media/backgrounds/whyus1.png); */
+    }
 }
 
 @media (max-width: 1280px) and (min-width: 1110px) {
@@ -2109,6 +2366,9 @@ footer h4 {
     }
     .fsm28 {
         font-size: 28px !important;
+    }
+    .fsm36 {
+        font-size: 36px !important;
     }
     .fsm20 {
         font-size: 20px !important;
@@ -2185,6 +2445,43 @@ footer h4 {
     .data11.fs18 {
         width: 100% !important;
     }
+    .backIMG {
+        position: absolute;
+        width: 70%;
+        height: 125%;
+        background-repeat: no-repeat;
+        background-position: -490px -100px;
+        background-size: cover;
+        left: 0;
+        /* background-image: url(../media/backgrounds/whyus1.png); */
+    }
+    .bb2.b2.col-lg-5 {
+        left: 0px;
+        width: 50% !important;
+    }
+    .part2 {
+        margin-top: 150px;
+        height: auto;
+    }
+    .part3 {
+        margin-top: 0px !important;
+    }
+    .part2 .imgs {
+        display: none !important;
+    }
+    .part2 img {
+        display: inline-block !important;
+    }
+    .ono .backIMG {
+        position: absolute;
+        width: 70%;
+        height: 100%;
+        background-repeat: no-repeat;
+        /* background-position: -352px center; */
+        background-size: contain;
+        left: 0;
+        /* background-image: url(../media/backgrounds/whyus1.png); */
+    }
 }
 
 
@@ -2207,8 +2504,15 @@ footer h4 {
     .ooo .contact_section {
         height: auto !important;
     }
+    .card-home {
+        height: auto;
+        width: 100%;
+    }
     .owl-nav {
         margin-left: 0px !important;
+    }
+    .log .forms {
+        margin-left: 0px;
     }
     .err {
         margin-top: -47px !important;
@@ -2216,9 +2520,9 @@ footer h4 {
     .fsm36 {
         font-size: 36px !important;
     }
-    .onn .b2.col-lg-5 {
+    /* .onn .b2.col-lg-5 {
         width: 100% !important;
-    }
+    } */
     .shop .shop_section1 {
         background: linear-gradient(270deg, #ED7C58 0%, #FFC266 98.19%);
         display: flex;
@@ -2232,7 +2536,7 @@ footer h4 {
     }
     .shop .shop_section1 p,
     .shop .shop_section1 select {
-        width: 90%;
+        width: 100%;
     }
     .prod .b1 {
         width: 100% !important;
@@ -2282,6 +2586,52 @@ footer h4 {
     .data11.fs18 {
         width: 100% !important;
     }
+    .mails.fsm20 {
+        font-size: 15px !important;
+    }
+    .backIMG {
+        position: absolute;
+        width: 70%;
+        height: 125%;
+        background-repeat: no-repeat;
+        background-position: -490px -100px;
+        background-size: cover;
+        left: 0;
+        /* background-image: url(../media/backgrounds/whyus1.png); */
+    }
+    .bb2.b2.col-lg-5 {
+        left: 0px;
+        width: 50% !important;
+    }
+    .part2 {
+        margin-top: 0px;
+    }
+    .part3 {
+        margin-top: 0px !important;
+    }
+    .part2 .imgs {
+        width: 100% !important;
+        background-position: -200px center !important;
+    }
+    .part2 .imgs {
+        display: inline-block !important;
+    }
+    .part2 .imgg {
+        display: none !important;
+    }
+    .ono .backIMG {
+        position: absolute;
+        width: 70%;
+        height: 100%;
+        background-repeat: no-repeat;
+        /* background-position: -352px center; */
+        background-size: contain;
+        left: 0;
+        /* background-image: url(../media/backgrounds/whyus1.png); */
+    }
+    .ono .forms {
+        width: 100% !important;
+    }
 }
 
 
@@ -2306,7 +2656,7 @@ footer h4 {
         width: 65%;
     }
     .section_dashboard {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
     .prod .b1 {
@@ -2355,6 +2705,43 @@ footer h4 {
     }
     .bb2 {
         width: 60%;
+    }
+    .mails {
+        font-size: 18px !important;
+    }
+    .backIMG {
+        position: absolute;
+        width: 58%;
+        height: 130%;
+        background-repeat: no-repeat;
+        background-position: -350px -100px;
+        background-size: cover;
+        left: 0;
+        /* background-image: url(../media/backgrounds/whyus1.png); */
+    }
+    .bb2.b2.col-lg-5 {
+        left: 140px;
+        width: 50% !important;
+    }
+    .part2 {
+        margin-top: 70px;
+    }
+    .part3 {
+        margin-top: 100px !important;
+    }
+    .part2 .imgs {
+        width: 100% !important;
+        background-position: -200px center !important;
+    }
+    .ono .backIMG {
+        position: absolute;
+        width: 55%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: -352px center;
+        background-size: cover;
+        left: 0;
+        /* background-image: url(../media/backgrounds/whyus1.png); */
     }
 }
 
@@ -2415,6 +2802,39 @@ footer h4 {
     .bb2 {
         width: 60%;
     }
+    .mails {
+        font-size: 20px !important;
+    }
+    .backIMG {
+        position: absolute;
+        width: 55%;
+        height: 130%;
+        background-repeat: no-repeat;
+        background-position: center -100px;
+        background-size: cover;
+        left: 0;
+        /* background-image: url(../media/backgrounds/whyus1.png); */
+    }
+    .bb2.b2.col-lg-5 {
+        left: 150px;
+        width: 50% !important;
+    }
+    .part2 {
+        margin-top: 70px;
+    }
+    .part3 {
+        margin-top: 100px !important;
+    }
+    .ono .backIMG {
+        position: absolute;
+        width: 55%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: -268px center;
+        background-size: cover;
+        left: 0;
+        /* background-image: url(../media/backgrounds/whyus1.png); */
+    }
 }
 
 
@@ -2466,6 +2886,40 @@ footer h4 {
     .data11.fs18 {
         width: 100% !important;
     }
+    .mails {
+        font-size: 23px !important;
+    }
+    .backIMG {
+        position: absolute;
+        width: 60%;
+        height: 130%;
+        background-repeat: no-repeat;
+        background-position: center -90px;
+        background-size: cover;
+        left: 0;
+        /* background-image: url(../media/backgrounds/whyus1.png); */
+    }
+    .part2 {
+        margin-top: 120px;
+    }
+    .ono .backIMG {
+        position: absolute;
+        width: 54%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: -368px center;
+        background-size: cover;
+        left: 0;
+        /* background-image: url(../media/backgrounds/whyus1.png); */
+    }
+}
+
+.part2 img {
+    height: 100%;
+}
+
+.part2 {
+    height: auto;
 }
 
 

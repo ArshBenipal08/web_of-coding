@@ -40,7 +40,6 @@
   <div class="page-wrapper container-fluid p-0 ooo">
     <div class="d-nav container-fluid m-0 d-flex justify-content-center position-fixed w-100" style="
           background-color: #f4f4f4;
-
           background-position: center center;
           height: 110px;
           z-index: 999;
@@ -192,7 +191,7 @@
       </nav>
     </div>
     <header class="login container-fluid px-lg-5 py-lg-5 px-0 py-0 text-center"
-      style="background-image: url(media/backgrounds/header.png)">
+      style="background-image: url(media/backgrounds/Header.png)">
       <div class="container head-box">
         <h2 class="text-uppercase text-center fs60">Contact Us</h2>
         <p class="text-white fs18 text-center mx-auto col-lg-7 col-10 px-lg-0 px-2">
@@ -203,7 +202,7 @@
     </header>
 
     <section class="content px-lg-4 px-0">
-      <div class="bg-white section_dashboard pb-5">
+      <div class="bg-white section_dashboard pb-lg-5 pb-4 pt-lg-5">
         <div class="b1 bg-white d-flex justify-content-end">
           <div class="container mx-auto">
             <div class="d-flex p-3">
@@ -216,66 +215,74 @@
           </div>
         </div>
         <div class="b1 col-sm-12 bg-white d-flex">
-          <div class="forms forms1 container mx-auto">
+          <div class="forms w-100 container mx-auto">
             <form class="">
-              <div class="row">
+              <div class="row mb-3">
                 <div class="col-lg-6 mb-3">
-                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="First Name" />
+                  <input type="text" class="form-control border-0" id="exampleInputPassword1"
+                    placeholder="First Name" />
                 </div>
                 <div class="col-lg-6 mb-3">
-                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Last Name" />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6 mb-3">
-                  <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email Address" />
-                </div>
-                <div class="col-lg-6 mb-3">
-                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Phone Number" />
+                  <input type="text" class="form-control border-0" id="exampleInputPassword1" placeholder="Last Name" />
                 </div>
               </div>
-              <div class="row">
+              <div class="row mb-3">
+                <div class="col-lg-6 mb-3">
+                  <input type="email" class="form-control border-0" id="exampleInputPassword1"
+                    placeholder="Email Address" />
+                </div>
+                <div class="col-lg-6 mb-3">
+                  <input type="text" class="form-control border-0" id="exampleInputPassword1"
+                    placeholder="Phone Number" />
+                </div>
+              </div>
+              <div class="row mb-3">
                 <div class="col-lg-12 mb-3">
-                  <textarea class="form-control" id="exampleInputPassword1">
+                  <textarea class="form-control border-0" id="exampleInputPassword1">
 Your Message</textarea>
                 </div>
               </div>
-              <div class="align-items-center mb-3 d-flex text-center mx-auto justify-content-center gap-3">
-                <input type="checkbox" class="checkbox chck" id="terms" />
-                <label for="terms">
-                  I agree with the
-                  <span class="text-clr">Terms and Conditions</span> and
-                  <span class="text-clr"> Privacy Policy</span> </label><br />
-              </div>
-              <div class="d-flex justify-content-center gap-5 pb-5">
-                <div class="col-2" style="height: 56px">
-                  <img src="media/backgrounds/imbot.png" height="100%" />
+              <div class="row justify-content-center mt-3">
+                <div class="col-lg-6 col-12 justify-content-center align-items-center mb-3 d-flex gap-3">
+
+                  <input type="checkbox" class="checkbox cb1" id="cb1" />
+                  <label for="cb1" style="width: 26px; border-color: #656565;"></label>
+                  <label for="cb1"> I agree with the <span class="text-clr">Terms and
+                      Conditions </span>and <span class="text-clr">Privacy Policy </span></label><br />
                 </div>
-                <button type="submit"
-                  class="col-6 primary_btn btn p-0 primary_btn_bgclr text-center fw-bold primary_btn_txtclr">
-                  Submit
-                  <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M0.856362 5.59269H7.47671L4.58438 8.48502C4.35323 8.71617 4.35323 9.09549 4.58438 9.32664C4.81553 9.55779 5.18893 9.55779 5.42008 9.32664L9.3259 5.42081C9.55705 5.18966 9.55705 4.81627 9.3259 4.58512L5.426 0.673362C5.19485 0.442213 4.82146 0.442213 4.59031 0.673362C4.35916 0.904511 4.35916 1.27791 4.59031 1.50906L7.47671 4.40731H0.856362C0.530382 4.40731 0.263672 4.67402 0.263672 5C0.263672 5.32598 0.530382 5.59269 0.856362 5.59269Z"
-                      fill="white" />
-                  </svg>
-                </button>
+
+
+              </div>
+              <div class="row justify-content-center mt-3">
+                <div
+                  class="col-lg-7 col-12 justify-content-center align-items-center gap-5 gap-lg-4 mb-3 d-flex flex-wrap">
+                  <div class="col-lg-4 col-12" style="height: 56px">
+                    <img src="media/backgrounds/imbot.png" style="width: 100%" />
+                  </div>
+                  <div class="col-lg-4 col-12">
+                    <button type="submit"
+                      class="w-100 primary_btn d-flex justify-content-between px-4 align-items-center btn p-0 primary_btn_bgclr text-center fw-bold primary_btn_txtclr">
+                      Submit
+                      <i class="fa fa-arrow-right"></i>
+                    </button>
+                  </div>
+                </div>
               </div>
             </form>
           </div>
         </div>
       </div>
     </section>
-    <section class="contact_section px-4">
+    <section class="contact_section px-lg-4">
       <div class="row">
-        <div class="b2 col-lg-6 col-sm-12">
-          <img src="media/backgrounds/contact_section.png" />
+        <div class="b2 col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
+          <img src="media/backgrounds/contact_section.png">
         </div>
 
         <div class="b2 col-lg-6 col-sm-12 justify-content-center d-flex flex-column" style="background-color: white">
-          <div class="mx-auto px-lg-5 w-100 py-5 px-0">
+          <div class="mx-auto px-lg-5 w-100 py-5 px-3">
             <h2 class="fs48 fw-bold">
-              Ready to <br class="d-lg-block d-none" />Collaborate with Us ?
+              Ready to <br class="d-lg-block d-none">Collaborate with Us ?
             </h2>
             <button type="submit"
               class="subb primary_btn btn p-0 primary_btn_bgclr text-center fw-bold primary_btn_txtclr">
@@ -283,31 +290,31 @@ Your Message</textarea>
               <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M0.856362 5.59269H7.47671L4.58438 8.48502C4.35323 8.71617 4.35323 9.09549 4.58438 9.32664C4.81553 9.55779 5.18893 9.55779 5.42008 9.32664L9.3259 5.42081C9.55705 5.18966 9.55705 4.81627 9.3259 4.58512L5.426 0.673362C5.19485 0.442213 4.82146 0.442213 4.59031 0.673362C4.35916 0.904511 4.35916 1.27791 4.59031 1.50906L7.47671 4.40731H0.856362C0.530382 4.40731 0.263672 4.67402 0.263672 5C0.263672 5.32598 0.530382 5.59269 0.856362 5.59269Z"
-                  fill="white" />
+                  fill="white"></path>
               </svg>
             </button>
             <div class="row mt-3 mb-3">
               <div class="col-lg-6 col-12">
-                <div class="col-lg-6 mb-3">
+                <div class=" col-12 mb-3">
                   <span class="fs20" style="color: #808697">Want to get a service?</span>
                 </div>
-                <div class="col-lg-6">
+                <div class=" col-12">
                   <span class="fs20">Get in touch below</span>
                 </div>
-                <div class="col-lg-6">
-                  <span class="fs24 fsm20 fw-bold">Services@webofcoding.com</span>
-
+                <div class="col-lg-6 col-12 ">
+                  <a href="mailto:Services@webofcoding.com" class="fs24 fsm20 fw-bold mails">Services@webofcoding.com
+                  </a>
                 </div>
               </div>
               <div class="col-lg-6 col-12">
-                <div class="col-lg-6 mb-3">
+                <div class=" mb-3">
                   <span class="fs20" style="color: #808697">Want to say hello?</span>
                 </div>
-                <div class="col-lg-6">
+                <div class=" col-12">
                   <span class="fs20">General Inquiries</span>
                 </div>
-                <div class="col-lg-6">
-                  <span class="fs24 fsm20 fw-bold">Info@webofcoding.com</span>
+                <div class="col-lg-6 col-12 ">
+                  <a href="mailto:Info@webofcoding.com" class="fs24 fsm20 fw-bold mails">Info@webofcoding.com </a>
 
                 </div>
               </div>
